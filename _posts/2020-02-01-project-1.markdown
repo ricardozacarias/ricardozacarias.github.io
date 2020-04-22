@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2020-02-01
-img: cabin.png
+img: padaria.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
