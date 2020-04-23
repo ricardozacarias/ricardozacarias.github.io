@@ -1,12 +1,11 @@
 # User config
 author: "Ricardo Zacarias"
-tagline: "Certified Data Monkey"
-description: "I'm Dr. Zaca, a former neuroscientist who derives sick pleasure in having fun with data. This is my playground."
+tagline: "Data"
+description: "Hi I'm Ricardo. I like to tell stories from numbers and this is my playground."
 keywords: "Pineapple, Pineapple Pizza, Pineapple House"
-email: "pineapple@example.com"
-linkedin: "https://www.linkedin.com/"
-twitter: "https://twitter.com/"
-github: "https://github.com/"
+email: "hi@ricardozacarias.com"
+linkedin: "https://www.linkedin.com/in/ricardo-zacarias/"
+github: "https://github.com/ricardozacarias"
 
 # Site config
 baseurl: ""
