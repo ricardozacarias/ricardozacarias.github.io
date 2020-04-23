@@ -3,7 +3,7 @@ layout: default
 title: NBA Timeouts
 modal-id: 2
 date: 2019-04-01
-img: steph.png
+img: cake.png
 alt: image-alt
 project-date: April 2019
 category: Exploratory Data Analysis
