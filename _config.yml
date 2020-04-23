@@ -12,6 +12,6 @@ sass:
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 
-title:		           "Portfolio Jekyll Theme"
-description:	       "Powered by Jekyll and GitHub Pages"
-author:              "Paul Le"
+title:		           "Ricardo Zacarias"
+description:	       "A personal front-end and data playground portfolio."
+author:              "Ricardo Zacarias"
