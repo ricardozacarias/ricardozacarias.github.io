@@ -3,6 +3,7 @@ layout: post
 title:  "Example Post #1"
 date:   2019-03-24
 categories: Python GIS
+permalink: /:title/
 ---
 I guess the abstract goes here.
 
