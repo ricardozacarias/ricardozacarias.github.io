@@ -1,63 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>{{ site.author }} / {{ page.project.title }}</title>
-	<meta name="author" content="{{ site.author }}">
-	<meta name="description" content="{{ page.content | strip_html | strip_newlines }}">
-	<meta name="keywords" content="{{ page.meta.keywords }}">
-	{% include head.html %}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.author }} / {{ page.project.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/solo.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+  {% if site.font-awesome-include %}<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">{% endif %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/rrssb.css">
+  <script src="{{ site.baseurl }}/scripts/jquery.js"></script>
+  <link rel="canonical" href="{{ site.url }}" />
 </head>
 <body>
-	{% include header.html %}
-	<main class="content">
-		<section class="project">
-			<div class="container">
-				<article>
-					<span class="h2">Project Title</span>
-					<h1>
-						<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{ page.project.title }}</a>
-					</h1>
-					<span class="h2">Role</span>
-					{{ page.content }}
-					<div class="project-meta">
-						<span class="h2">Technologies</span>
-						<p>{{ page.project.tech }}</p>
-						<span class="h2">Date</span>
-						<p>{{ page.project.date }}</p>
-					</div>
-				</article>
-				<aside>
-					<ul>
-						{% for image in page.images %}
-						<li>
-							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
-						</li>
-						{% endfor %}
-					</ul>
-				</aside>
-			</div>
-		</section>
-		<section class="project-navigation">
-			<div class="container">
-				{% if page.previous and page.previous.categories contains "projects" %}
-				<a title="Previous {{ page.previous.project.title }}" href="{{ page.previous.url | prepend: site.baseurl }}" class="prev">
-					<span class="h2">Previous</span>
-					<h2>{{ page.previous.project.title }}</h2>
-				</a>
-				{% endif %}
-				{% if page.next and page.next.categories contains "projects" %}
-				<a title="Next {{ page.next.project.title }}" href="{{ page.next.url | prepend: site.baseurl }}" class="next">
-					<span class="h2">Next</span>
-					<h2>{{ page.next.project.title }}</h2>
-				</a>
-				{% endif %}
-			</div>
-		</section>
-	</main>
-	{% include footer.html %}
-	<script src="{{ "/assets/scripts/vendor/jquery-1.12.4.min.js" | prepend: site.baseurl }}"></script>
-	<script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
-	<script src="{{ "/assets/scripts/vendor/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
-	<script src="{{ "/assets/scripts/project.js" | prepend: site.baseurl }}"></script>
+  {% include header.html %}
+  <article>
+   <div class="container">
+    <h1><a href="./">{{ site.tag_text }}</a></h1>
+    {{ content }}
+    </div>
+  </article>
+{% include footer.html %}
+<script src="{{ site.baseurl }}/scripts/rrssb.min.js"></script>
 </body>
 </html>
+
