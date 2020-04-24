@@ -1,6 +1,5 @@
 title: ricardozacarias.com
 author: Ricardo Zacarias
-email: alex@alexandermussell.com
 description: > 
   My personal data playground.
 show_excerpts: true 
@@ -9,7 +8,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Ricardo Zacarias
-  tagline: Data, Neuroscience
+  tagline: Data Stories
   date_format: "%b %-d, %Y"
   sitemap: false
   analytics_id: "UA-164344589-1"
@@ -22,7 +21,7 @@ plainwhite:
 
   social_links:
     github:  ricardozacarias
-    linkedIn: in/thelehhman
+    linkedIn: in/ricardozacarias
     rss: rss
 
 # Build settings
