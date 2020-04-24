@@ -57,7 +57,7 @@ plugins:
 #  - jekyll-feed
 
 plainwhite:
-  analytics_id: "< YOUR ID >"
+  analytics_id: "UA-164344589-1"
 
 plainwhite:
   navigation:
