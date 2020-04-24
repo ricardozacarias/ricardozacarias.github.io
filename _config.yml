@@ -17,8 +17,6 @@ plainwhite:
   tagline: Data Person
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
-
-plainwhite:
   social_links:
     github:  ricardozacarias
     linkedIn: in/ricardo-zacarias
@@ -37,8 +35,3 @@ plugins:
 
 plainwhite:
   analytics_id: "UA-164344589-1"
-
-plainwhite:
-  navigation:
-    - title: My Work
-      url: "/about/about.md"
