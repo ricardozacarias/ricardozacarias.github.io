@@ -17,11 +17,6 @@ plainwhite:
   tagline: Data Person
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
-  navigation:
-    - title: My Work
-      url: "/my-work"
-    - title: Resume
-      url: "/resume"
 
   # generate social links in footer
   social_links:
@@ -50,8 +45,8 @@ plainwhite:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+ - about.md
 
 # Build settings
 #theme: plainwhite
