@@ -42,8 +42,6 @@ plainwhite:
     #   instance: example.com
     # - username: jekyll2
     #   instance: example.com navigation:
-
-plainwhite:
   navigation:
     - title: About
       url: "/about/about.md"
