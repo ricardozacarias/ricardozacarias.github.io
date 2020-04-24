@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: default
 permalink: /:title/
 category: projects
 
