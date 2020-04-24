@@ -19,9 +19,8 @@ plainwhite:
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
+    github:  ricardozacarias
+    linkedIn: in/ricardo-zacarias
     rss: rss
     # dribbble: jekyll
     # facebook: jekyll
@@ -55,3 +54,5 @@ remote_theme: thelehhman/plainwhite-jekyll
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+
+remote_theme: thelehhman/plainwhite-jekyll
