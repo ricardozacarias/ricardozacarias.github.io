@@ -1,0 +1,16 @@
+que abrimos a 5 de Novembro de 2010, a primeira “Padaria Portuguesa”, na Av. João XXI, em Lisboa.
+9 years later they are 63.
+
+To restrict my analysis geographically, I will only use padarias inside the city limits of lisbon. This reduces the number to 45.
+
+
+Little Tutorial on Coordinate systeand geopandas
+
+Shapely knows nothing about your units. Therefore, when you call polygon.buffer(0.2), shapely will buffer the coordinates in polygon by 0.2 units. In your case, these are not meters, but degrees.
+
+If you want to buffer in meters, you first need to reproject your Polygon and Linestring into a CRS that uses meters. I would use geopandas for this, as it has a convenient .to_crs() method that will do the reprojection quickly. This also requires that you know the CRS of the coordinates you're providing (likely they are epsg:4326). You could also use pyproj, which might be easier if you're not dealing with layers with many polygons:
+
+However, all projections will have some distortions that vary (usually) with distance from the equator (or the projection's central latitude). One commonly-used option is to determine which UTM Zone your region of interest lies within, then choose the appropriate EPSG.
+
+EPSG:3763
+
