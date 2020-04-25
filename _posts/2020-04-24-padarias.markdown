@@ -5,11 +5,11 @@ date:   2020-04-26
 categories: Python GIS
 permalink: /:title
 ---
-TLDR: combined data from Zomato's API and geometric manipulations to estimate the proportion of Lisbon's surface area and population that lies within a 5-min walking distance of a Padaria Portuguesa. 
+TLDR: combined data from Zomato's API and geometric manipulations to estimate the proportion of Lisbon's surface area and population that lies within a 5-min walk of a Padaria Portuguesa. 
 
 <h1 id="posts-label"></h1>
 
-[A Padaria Portuguesa](https://www.apadariaportuguesa.pt/) is a modern-styled yet traditional bakery/café which first opened its doors the 5th of November (classic) of 2010 at the prime location of Avenida João XXI in the heart of Lisbon. Just shy of 10 years later, they have reached near omnipresence in the city, currently owning **62** locations in the greater Lisbon area. These days it's kind of hard to walk around the city without stumbling into one of these places.
+[A Padaria Portuguesa](https://www.apadariaportuguesa.pt/) is a modern-styled yet somehow traditional bakery born and raised in the heart of Lisbon's hipster revolution. Their primordial boutique opened its doors the 5th of November (remember, remember?) of 2010 at the prime location of [Avenida João XXI](https://goo.gl/maps/dSrT1qnjpWMwwu4M6). Since then, additional shops have been popping up like mushrooms after the rain. Nearly a decade later, they have reached all but omnipresence in the city, and currently own a whopping **62 locations** in the greater Lisbon area.
 
 This meteoric rise made me wonder how much of the city are they able to reach?
 
@@ -21,23 +21,13 @@ I also need a frame of reference, ie the city limits of Lisbon, which is availab
 
 ### Lisbon and Padaria locations
 
-![padaria-locations](/assets/posts/padarias/basemap_locations.png){: .center-image }
-
 <p align="center">
-  <img src="figures/nypd_budget.png" width="350"/>
-  <img src="figures/nypd_crime_rates.png" width="350"/>
+  <img src="/assets/posts/padarias/basemap_locations.png" />
 </p>
-
-### Union of 500-meter radius around each location
-
-![padaria-locations](/assets/posts/padarias/area_difference.png){: .center-image }
-
-
-To estimate coverage, I drew a 500-meter radius around each of the locations, calculated the union between all these circles and finally measured its area.
 
 ### Awesome figure title
 
 <p align="center">
-  <img src="/assets/posts/padarias/basemap_locations.png" />
   <img src="/assets/posts/padarias/area_difference.png" />
 </p>
+
