@@ -27,7 +27,10 @@ I also need a frame of reference, ie the city limits of Lisbon, which is availab
 
 ![padaria-locations](/assets/posts/padarias/basemap_locations.png){: .center-image }
 
-
+<p align="center">
+  <img src="figures/nypd_budget.png" width="350"/>
+  <img src="figures/nypd_crime_rates.png" width="350"/>
+</p>
 
 ### Union of 500-meter radius around each location
 
@@ -38,4 +41,7 @@ I also need a frame of reference, ie the city limits of Lisbon, which is availab
 To estimate coverage, I drew a 500-meter radius around each of the locations, calculated the union between all these circles and finally measured its area.
 
 
-
+<p align="center">
+  <img src="/assets/posts/padarias/basemap_locations.png" />
+  <img src="/assets/posts/padarias/area_difference.png" />
+</p>
