@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Example Post #1"
-date:   2019-03-24
-categories: Python GIS
+date:   2020-04-26
+categories: Python GIS Tutorial-ish
 permalink: /:title
 ---
 I guess the abstract goes here.

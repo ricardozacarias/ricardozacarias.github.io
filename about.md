@@ -1,6 +1,6 @@
 ---
 layout: about
-title:  "RZ - About"
+title:  "About."
 ---
 
 This is what I'm all about.
