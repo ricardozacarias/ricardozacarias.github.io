@@ -13,18 +13,22 @@ TLDR: combined data from Zomato's API and geometric manipulations to estimate th
 
 Having lived in Lisbon for most of this meteoric rise, my curiosity kicked in and I wondered... 
 
-**What fraction of Lisbon is covered by Padarias? **
+## What fraction of Lisbon is covered by Padarias?
 
 The first step to approach this problem is mining the locations of every restaurant. Luckily for us, Zomato has a free [API](https://developers.zomato.com/api) that is very rich and easy to use (but not without its restrictions). To geographically regulate the analysis I focused only on the locations within the city limits of Lisbon (which I found [here](http://geodados.cm-lisboa.pt/datasets/freguesias-2012)). Once we have these two very simple datasets we can visualize their distribution.
 
-### Lisbon and Padaria locations
+### Fig. 1 - Lisbon map and Padaria locations
 
 <p align="center">
   <img src="/assets/posts/padarias/basemap_locations.png" />
 </p>
-To calculate the area of influence I drew a 500-m radius circle around each location and computed the union between all the shapes.
+[The pedestrian shed.](https://morphocode.com/the-5-minute-walk/)
 
-### Total area of influence
+> The 5-minute walk, also known as the “pedestrian shed” is considered to be the distance people are willing to walk before opting to drive. Based on the average walking speed a five-minute walk is represented by a radius measuring ¼ of a mile or about 400 meters.
+
+To calculate the area of influence I drew a 500-m radius circle around each location and computed the union between all the shapes. Even though Google considers
+
+### Fig. 2 - Total area of influence
 
 <p align="center">
   <img src="/assets/posts/padarias/area_difference.png" />
