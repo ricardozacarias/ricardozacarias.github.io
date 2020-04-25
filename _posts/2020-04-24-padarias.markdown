@@ -7,23 +7,28 @@ permalink: /:title
 ---
 I guess the abstract goes here.
 
-```javascript
-const Razorpay = require('razorpay');
+This is gonna be the post.
 
-let rzp = Razorpay({
-	key_id: 'KEY_ID',
-	secret: 'name'
-});
+["A Padaria Portuguesa"](https://www.apadariaportuguesa.pt/) 
 
-// capture request
-rzp.capture(payment_id, cost)
-	.then(function (data) {
-		return 2;
-	})
-```
+Abrimos a 5 de Novembro de 2010, a primeira “Padaria Portuguesa”, na Av. João XXI, em Lisboa.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+As of April 2020 they have 62 locations in the greater Lisbon area. These days it's kind of hard to walk around the city without stumbling into one of these places.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+This made me wonder: what is the actual reach of this business in terms of percentage of area covered?
+
+To answer this question the first thing we need are the coordainates of every single location. Luckily for us, Zomato has a free [API](https://developers.zomato.com/api) which has some limits, but very rich and easy to use. 
+
+Once you get a developer key, you can query the code of your in Zomato's website and then use the /Search API to grab all the restaurants that match your query (note: you can only get 20 restaurants at a time, up to 100 max). This is not really the scope of the article but you can find the code [here](github.com).
+
+Alright so now we have the latitude and longitude coordinates for each store, let's look at them. This is where one of my favorite libraries comes is: Geopandas.
+
+Geopandas adds support for geographic data to [pandas](http://pandas.pydata.org/) objects. SImply, it adds a 'geometry' column to a DataFrame and uses [Shapely](https://pypi.org/project/Shapely/) and fiona
+
+Shapely is a BSD-licensed Python package for manipulation and analysis of planar geometric objects.
+
+Now we need a frame of reference. To answer owr question
+
+With this library we can
+
+<i class="fas fa-camera"></i>
