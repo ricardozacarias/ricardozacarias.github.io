@@ -5,13 +5,13 @@ date:   2020-04-26
 categories: Python GIS
 permalink: /:title
 ---
-Abstract: I guess the abstract goes here.
+TLDR: using data from Zomato's API I calculated the percentage of the total area of Lisbon that is within a 5-min walking distance of a Padaria Portuguesa. 
 
 
 
 ["A Padaria Portuguesa"](https://www.apadariaportuguesa.pt/) 
 
-Abrimos a 5 de Novembro de 2010, a primeira “Padaria Portuguesa”, na Av. João XXI, em Lisboa.
+Abrimos a 5 de Novembro de 2010, a primeira “Padaria Portuguesa”, na Av. João XXI, em Lisboa. Just shy of 10 years later, they have reached near omnipresence in the city of Lisbon, with 62 locations in a relatively small metropolitan area. 
 
 As of April 2020 they have 62 locations in the greater Lisbon area. These days it's kind of hard to walk around the city without stumbling into one of these places.
 
