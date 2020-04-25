@@ -2,30 +2,29 @@
 layout: post
 title:  "The reach of 'A Padaria Portuguesa'"
 date:   2020-04-26
-categories: Python GIS
+categories: Lisbon GIS Python
 permalink: /:title
 ---
 TLDR: combined data from Zomato's API and geometric manipulations to estimate the proportion of Lisbon's surface area and population that lies within a 5-min walk of a Padaria Portuguesa. 
 
 <h1 id="posts-label"></h1>
 
-[A Padaria Portuguesa](https://www.apadariaportuguesa.pt/) is a modern-styled yet somehow traditional bakery born and raised in the heart of Lisbon's hipster revolution. Their primordial boutique opened its doors the 5th of November (remember, remember?) of 2010 at the prime location of [Avenida João XXI](https://goo.gl/maps/dSrT1qnjpWMwwu4M6). Since then, additional shops have been popping up like mushrooms after the rain. Nearly a decade later, they have reached all but omnipresence in the city, and currently own a whopping **62 locations** in the greater Lisbon area.
+[A Padaria Portuguesa](https://www.apadariaportuguesa.pt/) is a modern-styled yet somehow traditional bakery born and raised in the heart of Lisbon's hipster revolution. Their primordial boutique opened its doors the 5th of November (remember, remember?) of 2010 at the prime location of [Avenida João XXI](https://goo.gl/maps/dSrT1qnjpWMwwu4M6). Every year since then additional shops have been popping up like mushrooms after the rain. Nearly a decade later, they have reached all but omnipresence in the city, and currently own a whopping **62 locations** in the greater Lisbon area.
 
-This meteoric rise made me wonder how much of the city are they able to reach?
+Having lived in Lisbon for most of this meteoric rise, my curiosity kicked in and I wondered... 
 
-To answer this question the first thing we need are the coordinates of every single location. Luckily for us, Zomato has a free [API](https://developers.zomato.com/api) which has some limits, but very rich and easy to use. 
+**What fraction of Lisbon is covered by Padarias? **
 
-I also need a frame of reference, ie the city limits of Lisbon, which is available [here](http://geodados.cm-lisboa.pt/datasets/freguesias-2012).
-
-
+The first step to approach this problem is mining the locations of every restaurant. Luckily for us, Zomato has a free [API](https://developers.zomato.com/api) that is very rich and easy to use (but not without its restrictions). To geographically regulate the analysis I focused only on the locations within the city limits of Lisbon (which I found [here](http://geodados.cm-lisboa.pt/datasets/freguesias-2012)). Once we have these two very simple datasets we can visualize their distribution.
 
 ### Lisbon and Padaria locations
 
 <p align="center">
   <img src="/assets/posts/padarias/basemap_locations.png" />
 </p>
+To calculate the area of influence I drew a 500-m radius circle around each location and computed the union between all the shapes.
 
-### Awesome figure title
+### Total area of influence
 
 <p align="center">
   <img src="/assets/posts/padarias/area_difference.png" />
