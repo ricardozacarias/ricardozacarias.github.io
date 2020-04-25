@@ -34,7 +34,7 @@ Alright so now we have the latitude and longitude coordinates for each store, le
 To oversimplify it, Geopandas integrates:
 
 - [Fiona](https://pypi.org/project/Fiona/): to read and write geographic files (shapefiles, GeoJSON);
-- Pandas: to use the DataFrame structure and create GeoDataFrames and GeoSeries;
+- [Pandas](https://pandas.pydata.org/): to use the DataFrame structure and create GeoDataFrames and GeoSeries;
 - [Pyproj](https://pypi.org/project/pyproj/): to perform projections of different Coordinate Reference Systems (CRS);
 - Shapely: to calculate distances and geometric manipulations;
 - Matplotlib: to plot maps.
