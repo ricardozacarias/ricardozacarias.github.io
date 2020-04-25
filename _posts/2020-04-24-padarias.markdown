@@ -33,4 +33,4 @@ Even though this concept doesn't really apply to old-world capitals with scarce 
 <p align="center">
   <img src="/assets/posts/padarias/area_difference.png" />
 </p>
-If we calculate the red area and divide it by the total city area we get a nice round value of **25%.**
+Thus, if we compute the red-shaded area and divide it by the total city area we get a nice round value of **25%.**
