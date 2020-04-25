@@ -23,6 +23,7 @@ I also need a frame of reference, ie the city limits of Lisbon, which is availab
 
 
 
-# Graph Title {: style="color:gray; font-size: 80%; text-align: center;"}
+Graph Title {: style="color:gray; font-size: 80%; text-align: center;"}
 
 ![padaria-locations](/assets/posts/padarias/basemap_locations.png){: .center-image }
+
