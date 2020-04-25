@@ -37,7 +37,6 @@ I also need a frame of reference, ie the city limits of Lisbon, which is availab
 ![padaria-locations](/assets/posts/padarias/area_difference.png){: .center-image }
 
 
-
 To estimate coverage, I drew a 500-meter radius around each of the locations, calculated the union between all these circles and finally measured its area.
 
 ### Awesome figure title
