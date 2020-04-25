@@ -5,17 +5,11 @@ date:   2020-04-26
 categories: Python GIS
 permalink: /:title
 ---
-TLDR: using data from Zomato's API I calculated the percentage of the total area of Lisbon that is within a 5-min walking distance of a Padaria Portuguesa. 
+TLDR: combined data from Zomato's API and geometric manipulations to estimate the proportion of Lisbon's surface area and population that lies within a 5-min walking distance of a Padaria Portuguesa. 
 
+[A Padaria Portuguesa](https://www.apadariaportuguesa.pt/) is a modern-styled yet traditional bakery/café which first opened its doors the 5th of November (classic) of 2010 at the prime location of Avenida João XXI in the heart of Lisbon. Just shy of 10 years later, they have reached near omnipresence in the city, currently owning **62** locations in the greater Lisbon area. These days it's kind of hard to walk around the city without stumbling into one of these places.
 
-
-["A Padaria Portuguesa"](https://www.apadariaportuguesa.pt/) 
-
-Abrimos a 5 de Novembro de 2010, a primeira “Padaria Portuguesa”, na Av. João XXI, em Lisboa. Just shy of 10 years later, they have reached near omnipresence in the city of Lisbon, with 62 locations in a relatively small metropolitan area. 
-
-As of April 2020 they have 62 locations in the greater Lisbon area. These days it's kind of hard to walk around the city without stumbling into one of these places.
-
-This made me wonder: what is the actual reach of this business in terms of percentage of area covered?
+This meteoric rise made me wonder how much of the city are they able to reach?
 
 To answer this question the first thing we need are the coordinates of every single location. Luckily for us, Zomato has a free [API](https://developers.zomato.com/api) which has some limits, but very rich and easy to use. 
 
@@ -23,7 +17,15 @@ I also need a frame of reference, ie the city limits of Lisbon, which is availab
 
 
 
-Graph Title{ : .figure-title }
+Graph Title 
+
+{ : .figure-title }
 
 ![padaria-locations](/assets/posts/padarias/basemap_locations.png){: .center-image }
+
+
+
+To estimate coverage, I drew a 500-meter radius around each of the locations, calculated the union between all these circles and finally measured its area.
+
+![padaria-locations](/assets/posts/padarias/area_difference.png){: .center-image }
 
