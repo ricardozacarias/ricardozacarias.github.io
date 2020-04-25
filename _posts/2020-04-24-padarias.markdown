@@ -43,6 +43,7 @@ To estimate coverage, I drew a 500-meter radius around each of the locations, ca
 <p align="center">
   <b>The Awesome Title for An Awesome Figure</b>
 </p>
+
 <p align="center">
   <img src="/assets/posts/padarias/basemap_locations.png" />
   <img src="/assets/posts/padarias/area_difference.png" />
