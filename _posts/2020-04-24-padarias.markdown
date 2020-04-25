@@ -21,13 +21,13 @@ To answer this question the first thing we need are the coordinates of every sin
 
 Once you get a developer key, you can query the code of your city of interest in Zomato's website and then use the /Search API to grab all the restaurants that match your query (note: you can only get 20 restaurants at a time, up to 100 max). Getting data from Zomato is not really the scope of this article but you can find the code I used [here](github.com).
 
-| restaurant.name                               | restaurant.latitude | restaurant.longitude |
-| --------------------------------------------- | :-----------------: | :------------------: |
-| A Padaria Portuguesa - Duque D'Ávila          |       38.735        |       -9.14402       |
-| A Padaria Portuguesa - Camões                 |       38.7111       |       -9.14321       |
-| A Padaria Portuguesa - Barata Salgueiro       |       38.7216       |       -9.14896       |
-| A Padaria Portuguesa - Campo de Ourique       |       38.7184       |       -9.16477       |
-| A Padaria Portuguesa - António Augusto Aguiar |       38.7319       |       -9.15185       |
+| restaurant.name                               | restaurant.latitude |      | restaurant.longitude |
+| --------------------------------------------- | :-----------------: | ---- | :------------------: |
+| A Padaria Portuguesa - Duque D'Ávila          |       38.735        |      |       -9.14402       |
+| A Padaria Portuguesa - Camões                 |       38.7111       |      |       -9.14321       |
+| A Padaria Portuguesa - Barata Salgueiro       |       38.7216       |      |       -9.14896       |
+| A Padaria Portuguesa - Campo de Ourique       |       38.7184       |      |       -9.16477       |
+| A Padaria Portuguesa - António Augusto Aguiar |       38.7319       |      |       -9.15185       |
 
 Alright so now we have the latitude and longitude coordinates for each store, let's look at them. This is where one of my favorite Python libraries comes in: [Geopandas](https://geopandas.org/).
 
