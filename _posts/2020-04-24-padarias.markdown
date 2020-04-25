@@ -20,3 +20,5 @@ This made me wonder: what is the actual reach of this business in terms of perce
 To answer this question the first thing we need are the coordinates of every single location. Luckily for us, Zomato has a free [API](https://developers.zomato.com/api) which has some limits, but very rich and easy to use. 
 
 I also need a frame of reference, ie the city limits of Lisbon, which is available [here](http://geodados.cm-lisboa.pt/datasets/freguesias-2012).
+
+![](https://github.com/ricardozacarias/ricardozacarias.github.io/blob/master/assets/posts/padarias/basemap_locations.png)
