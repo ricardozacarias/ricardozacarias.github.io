@@ -45,6 +45,6 @@ To estimate coverage, I drew a 500-meter radius around each of the locations, ca
 </p>
 
 <p align="center">
-  <img src="/assets/posts/padarias/basemap_locations.png" width="80%" />
-  <img src="/assets/posts/padarias/area_difference.png" width="80%" />
+  <img src="/assets/posts/padarias/basemap_locations.png" width="50%" />
+  <img src="/assets/posts/padarias/area_difference.png" width="50%" />
 </p>
