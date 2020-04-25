@@ -19,15 +19,13 @@ I also need a frame of reference, ie the city limits of Lisbon, which is availab
 
 
 
-Graph Title 
+Graph Title
 
-{ : .figure-title }
-
-![padaria-locations](/assets/posts/padarias/basemap_locations.png){: .center-image }
+![padaria-locations](/assets/posts/padarias/basemap_locations.png){: .center-image }![padaria-locations](/assets/posts/padarias/area_difference.png){: .center-image }
 
 
 
 To estimate coverage, I drew a 500-meter radius around each of the locations, calculated the union between all these circles and finally measured its area.
 
-![padaria-locations](/assets/posts/padarias/area_difference.png){: .center-image }
+
 
