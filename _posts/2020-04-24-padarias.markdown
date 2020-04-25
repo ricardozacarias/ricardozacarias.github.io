@@ -19,9 +19,15 @@ I also need a frame of reference, ie the city limits of Lisbon, which is availab
 
 
 
-Graph Title
+#### Lisbon and Padaria locations
 
-![padaria-locations](/assets/posts/padarias/basemap_locations.png){: .center-image }![padaria-locations](/assets/posts/padarias/area_difference.png){: .center-image }
+![padaria-locations](/assets/posts/padarias/basemap_locations.png){: .center-image }
+
+
+
+#### Union of 500-meter radius around each location
+
+![padaria-locations](/assets/posts/padarias/area_difference.png){: .center-image }
 
 
 
