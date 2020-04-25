@@ -15,7 +15,7 @@ $leftWidth: 220px;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 1.2em;
   margin: 0;
@@ -253,4 +253,10 @@ main {
 {
     margin: 0 auto;
     display: block;
+}
+
+.figure-title
+{
+    font-size: 80%;
+    text-align: center;
 }
