@@ -26,11 +26,11 @@ Introducing [the pedestrian shed.](https://morphocode.com/the-5-minute-walk/)
 
 > *"The 5-minute walk, also known as the “pedestrian shed” is considered to be the distance people are willing to walk before opting to drive. Based on the average walking speed a five-minute walk is represented by a radius measuring ¼ of a mile or about <u>400 meters</u>."*
 
-Even though find this concept ridiculous, I think it's also safe to assume that very few Lisbon locals are willing to walk more than 5 minutes for an espresso and a [pão de deus](https://nit.pt/buzzfood/cafes-e-bares/a-receita-do-famoso-pao-de-deus-da-padaria-portuguesa-que-pode-fazer-em-casa). As a compromise, to calculate the area covered by padarias I drew a **500 m** radius circle around each location and computed the union between all the shapes.
+Even though this concept doesn't really apply to old-world capitals with scarce parking, there are so many cafés in Lisbon that I think it's safe to assume that very few locals would be willing to walk for more than 5 minutes for an espresso and a [pão de deus](https://nit.pt/buzzfood/cafes-e-bares/a-receita-do-famoso-pao-de-deus-da-padaria-portuguesa-que-pode-fazer-em-casa). As a compromise, to calculate the area covered by padarias I drew a **500 m** radius circle around each location and computed the union between all the shapes.
 
 ### Fig. 2 - Total area of influence
 
 <p align="center">
   <img src="/assets/posts/padarias/area_difference.png" />
 </p>
-
+If we calculate the red area and divide it by the total city area we get a nice round value of **25%.**
