@@ -7,6 +7,8 @@ permalink: /:title
 ---
 TLDR: combined data from Zomato's API and geometric manipulations to estimate the proportion of Lisbon's surface area and population that lies within a 5-min walking distance of a Padaria Portuguesa. 
 
+
+
 [A Padaria Portuguesa](https://www.apadariaportuguesa.pt/) is a modern-styled yet traditional bakery/café which first opened its doors the 5th of November (classic) of 2010 at the prime location of Avenida João XXI in the heart of Lisbon. Just shy of 10 years later, they have reached near omnipresence in the city, currently owning **62** locations in the greater Lisbon area. These days it's kind of hard to walk around the city without stumbling into one of these places.
 
 This meteoric rise made me wonder how much of the city are they able to reach?
