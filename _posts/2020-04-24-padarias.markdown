@@ -44,8 +44,8 @@ Because people do not distribute uniformly within a city, or within anything for
 </p>
 Again, if we sum the total population reached by each subdivision and divide by the total population of the city we observe a coverage of **31.1%**.  In other words, this number is an estimate of the population that lives within 5-min walking distance of one of these bakeries.
 
-
+### Final remarks
 
 Apart from the fact that these numbers came from the last census in Portugal which happened in 2011, It is important to note that much like for the entire city, population is also not evenly distributed within sub-regions, but there's only so much that we can do. Furthermore, population density is not a static number,  shifts significantly as people move around the city during the day (home, work, errands, etc.). This pattern is shown clearly by [this incredible visualization](https://manpopex.us/) in New York using the subway's turnstile data.
 
-We can assume that the same happens in Lisbon, but until someone at Metro Lisboa replies to my emails requesting turnstile data won't be able to find out. ([Figure 2](###fig.-2-total-area-of-influence))
+We can assume that the same happens in Lisbon, but until someone at [Metropolitano de Lisboa](https://www.metrolisboa.pt/) replies to my emails requesting turnstile data I won't be able to find out. ([Figure 2](###fig.-2-total-area-of-influence))
