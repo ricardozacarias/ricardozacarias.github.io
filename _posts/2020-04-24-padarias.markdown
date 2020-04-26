@@ -35,17 +35,15 @@ Even though this concept doesn't really apply to old-world capitals with scarce 
 </p>
 Thus, if we compute the area of the red-shaded region and divide it by the total city area we get a nice round value of **25%.** This is quite impressive for a business that is younger than Greta.
 
-Because people do not distribute uniformly within a city, or within anything for that matter, surface area might not be the most interesting metric to measure the reach of a business. In an attempt to extend this analysis to the population level, I re-calculated the area covered by padarias but for each administrative subdivision of Lisbon (also known as [freguesias](https://pt.wikipedia.org/wiki/Lista_de_freguesias_de_Lisboa)) and multiplied it by their respective [population](https://censos.ine.pt/xportal/xmain?xpid=CENSOS&xpgid=censos_quadros) (INE, last census 2011). 
+Because people do not distribute uniformly within a city, or anywhere for that matter, surface area might not be the most appropriate metric to measure the reach of a business. In an attempt to extend this analysis to the population level, I re-calculated the area covered by padarias but for each administrative subdivision of Lisbon (also known as [freguesias](https://pt.wikipedia.org/wiki/Lista_de_freguesias_de_Lisboa)) and multiplied it by their respective population ([Instituto Nacional de Estatística](https://censos.ine.pt/xportal/xmain?xpid=CENSOS&xpgid=censos_quadros)). 
 
 ### Fig. 3 - Population reached by freguesia
 
 <p align="center">
   <img src="/assets/posts/padarias/population_reached.png" />
 </p>
-Once more, we tallied the population reached in each freguesia and divided by the total city population and observed a coverage of **31.1%**.  In other words, this number is an estimate of the population proportion that lives within 5-min walking distance of one of these bakeries.
+I tallied the population reached in each freguesia (189.668) and divided by the total population of city (552.700), resulting in a coverage of **31.1%**.  In other words, this number is an estimate of the population proportion that lives within 5-min walking distance of one of these bakeries.
 
 ### Final remarks
 
-Apart from the fact that these numbers came from the last census in Portugal which happened in 2011, It is important to note that much like for the entire city, population is also not evenly distributed within sub-regions, but there's only so much that we can do. Furthermore, population density is not a static number,  shifts significantly as people move around the city during the day (home, work, errands, etc.). This pattern is shown clearly by [this incredible visualization](https://manpopex.us/) in New York using the subway's turnstile data.
-
-We can assume that the same happens in Lisbon, but until someone at [Metropolitano de Lisboa](https://www.metrolisboa.pt/) replies to my emails requesting turnstile data I won't be able to find out.
+Ignoring the fact that our demographic data came from the last Portuguese census (which happened in 2011), population estimates based on residence are far from optimal measures of density. The spatial distribution of people shifts significantly as people go about their daily lives (home, work, errands). This pattern is shown clearly in Manhattan by [this incredible visualization](https://manpopex.us/) using data from the subway's entries and exits. I think we can assume that a similar ebb and flow of citizens takes place in Lisbon, but until someone at [Metropolitano de Lisboa](https://www.metrolisboa.pt/) replies to my emails requesting turnstile data I won't be able to try.
