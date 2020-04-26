@@ -9,9 +9,7 @@ TLDR: a short and sweet tutorial based on the content of this [post](https://ric
 
 <h1 id="posts-label"></h1>
 
-To answer this question the first thing we need are the coordinates of every single location. Luckily for us, Zomato has a free [API](https://developers.zomato.com/api) which has some limits, but very rich and easy to use. 
-
-Once you get a developer key, you can query the code of your city of interest in Zomato's website and then use the /Search API to grab all the restaurants that match your query (note: you can only get 20 restaurants at a time, up to 100 max). Getting data from Zomato is not really the scope of this article but you can find the code I used [here](github.com).
+Once you get a developer key, you can query the code of your city of interest in Zomato's website and then use the /Search API to grab all the restaurants that match your query (note: you can only get 20 restaurants at a time, up to 100 max). Grabbing data from Zomato is not really the scope of this article but you can find the code I used [here](github.com).
 
 | restaurant.name                               | restaurant.latitude |      | restaurant.longitude |
 | --------------------------------------------- | :-----------------: | ---- | :------------------: |
@@ -43,9 +41,13 @@ With this library we can
 
 <i class="fas fa-camera"></i>
 
-Geographical Parenthesis:
 
-Most location data by default is stored as latitude/longitude coordinates which specify every place on the surface of an ellipsoid (aka the Earth). This is important because all the geometrical manipulations available in Shapely are 
+
+### Geographical Parenthesis:
+
+Most location data is stored by default as latitude-longitude coordinates which specify every place on the surface of an ellipsoid (also known as the Earth). 
+
+This is important because all the geometrical manipulations available in Shapely are 
 
 This means that we need to project latitude and longitude values into a Coordinate Reference System (CRS) in 2D. 
 
