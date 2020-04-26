@@ -1,6 +1,6 @@
 ---
 layout: about
-title:  "About."
+title:  "Ricardo Zacarias | About"
 ---
 
 This is what I'm all about.
