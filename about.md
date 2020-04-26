@@ -7,4 +7,7 @@ Hi, I'm Ricardo. I've always wanted to be a scientist but then I became one. Aft
 
 <h1 id="posts-label"></h1>
 
-Contact me:    <a href="mailto:ricardo.zsilva@gmail.com"> <i class="fas fa-envelope"></i></a>
+<p align="center">
+    Contact me
+    <a href="mailto:ricardo.zsilva@gmail.com"><i class="fas fa-envelope"></i></a>
+</p>
