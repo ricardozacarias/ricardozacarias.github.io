@@ -3,4 +3,4 @@ layout: about
 title:  "Ricardo Zacarias | About"
 ---
 
-This is what I'm all about.
+Hi, I'm Ricardo. I trained my entire life to be a scientist until I became one. 
