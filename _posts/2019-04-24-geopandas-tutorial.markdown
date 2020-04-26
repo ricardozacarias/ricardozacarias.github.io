@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Geopandas Tutorial"
+title:  "Geopandas tutorial"
 date:   2019-03-23 21:03:36 +0530
 categories: Python Geopandas Tutorial
 permalink: /:title
 ---
 TLDR: a short and sweet tutorial based on the content of this [post](https://ricardozacarias.com/padarias). An introduction to Geopandas, choosing the right projections and performing geometric manipulations.
+
+<h1 id="posts-label"></h1>
 
 To answer this question the first thing we need are the coordinates of every single location. Luckily for us, Zomato has a free [API](https://developers.zomato.com/api) which has some limits, but very rich and easy to use. 
 
