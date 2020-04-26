@@ -37,10 +37,14 @@ Thus, if we compute the area of the red-shaded region and divide it by the total
 
 Because people are not uniformly distributed within a city, surface area might not be the most interesting metric to measure the reach of a business. In an attempt to extend this analysis to the population level, I re-calculated the area covered by padarias but for each administrative subdivision of Lisbon (also known as [freguesias](https://pt.wikipedia.org/wiki/Lista_de_freguesias_de_Lisboa)) and multiplied it by their respective population. 
 
-### Fig. 3 - Area covered by freguesia
+### Fig. 3 - Population reached by freguesia
 
 <p align="center">
   <img src="/assets/posts/padarias/area_freguesia.png" />
-  <img src="/assets/posts/padarias/freguesias_choropleth.png" />
 </p>
 
+Again, if we sum the total population reached by each subdivision and divide by the total population of the city we see **31.1%**. 
+
+It is important to note that much like for the entire city, population is also not evenly distributed within sub-regions, but there's only so much that we can do. Furthermore, population density is not a static number, it has significant daily shifts as people move around the city during the day (home, work, errands, etc.). This is wonderfully shown by [this incredible visualization](https://manpopex.us/) in NYC using the subway's turnstile data as a measure for a fluid pop. density. 
+
+I would definitely like to attempt a similar analysis if Metro Lisboa would reply to my emails requesting turnstile data. 
