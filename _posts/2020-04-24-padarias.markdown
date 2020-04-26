@@ -41,4 +41,6 @@ Because people are not uniformly distributed within a city, surface area might n
 
 <p align="center">
   <img src="/assets/posts/padarias/area_freguesia.png" />
+  <img src="/assets/posts/padarias/freguesias_choropleth.png" />
 </p>
+
