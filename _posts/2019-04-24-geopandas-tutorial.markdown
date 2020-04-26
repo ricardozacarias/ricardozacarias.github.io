@@ -1,19 +1,11 @@
 ---
 layout: post
-title:  "Example Post #2"
+title:  "Geopandas Tutorial"
 date:   2019-03-23 21:03:36 +0530
 categories: Python Geopandas Tutorial
 permalink: /:title
 ---
-Abstract: I guess the abstract goes here.
-
-["A Padaria Portuguesa"](https://www.apadariaportuguesa.pt/) 
-
-Abrimos a 5 de Novembro de 2010, a primeira “Padaria Portuguesa”, na Av. João XXI, em Lisboa.
-
-As of April 2020 they have 62 locations in the greater Lisbon area. These days it's kind of hard to walk around the city without stumbling into one of these places.
-
-This made me wonder: what is the actual reach of this business in terms of percentage of area covered?
+TLDR: a short and sweet tutorial based on the content of this [post](https://ricardozacarias.com/padarias). An introduction to Geopandas, choosing the right projections and performing geometric manipulations.
 
 To answer this question the first thing we need are the coordinates of every single location. Luckily for us, Zomato has a free [API](https://developers.zomato.com/api) which has some limits, but very rich and easy to use. 
 
@@ -54,3 +46,5 @@ Geographical Parenthesis:
 Most location data by default is stored as latitude/longitude coordinates which specify every place on the surface of an ellipsoid (aka the Earth). This is important because all the geometrical manipulations available in Shapely are 
 
 This means that we need to project latitude and longitude values into a Coordinate Reference System (CRS) in 2D. 
+
+To choose the right cartesian projection for your project you can go to [this website](https://epsg.io/) and input the region you're working on. 
