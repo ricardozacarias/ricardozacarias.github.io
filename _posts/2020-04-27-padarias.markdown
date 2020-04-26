@@ -35,7 +35,7 @@ Even though this concept doesn't really apply to old-world capitals with scarce 
 </p>
 Thus, if we compute the area of the red-shaded region and divide it by the total city area we get a nice round value of **25%.** This is quite impressive for a business that is younger than Greta.
 
-Because people do not distribute uniformly within a city, or anywhere for that matter, surface area might not be the most appropriate metric to measure the reach of a business. In an attempt to extend this analysis to the population level, I re-calculated the area covered by padarias but for each administrative subdivision of Lisbon (also known as [freguesias](https://pt.wikipedia.org/wiki/Lista_de_freguesias_de_Lisboa)) and multiplied it by their respective population ([Instituto Nacional de Estatística](https://censos.ine.pt/xportal/xmain?xpid=CENSOS&xpgid=censos_quadros)). 
+Because people do not distribute uniformly within a city, or anywhere for that matter, surface area might not be the most appropriate metric to measure the reach of a business. In an attempt to extend this analysis to the population level, I re-calculated the area covered by padarias but for each administrative subdivision of Lisbon (also known as [freguesias](https://pt.wikipedia.org/wiki/Lista_de_freguesias_de_Lisboa)) and multiplied it by their respective population (found at [Instituto Nacional de Estatística](https://censos.ine.pt/xportal/xmain?xpid=CENSOS&xpgid=censos_quadros)). For example, if a subregion has 100 inhabitants and 80% of its area covered in red, then it reaches 80 people.
 
 ### Fig. 3 - Population reached by freguesia
 
@@ -45,5 +45,7 @@ Because people do not distribute uniformly within a city, or anywhere for that m
 I tallied the population reached in each freguesia (189.668) and divided it by the total population of the city (552.700), resulting in a coverage of **31.1%**.  In other words, this number is a (rough) estimate of the population proportion that lives within 5-min walking distance of one of these bakeries.
 
 ### Final remarks
+
+For the people in charge of expansion perhaps it would be more interesting to see not the amount of people within their service area, but the inverse. For instance, Areeiro and Penha de França are some of the most densely populated regions, but only have a small fraction of coverage and should hold priority when considering new locations <i class="fas fa-smile-wink"></i>.
 
 Ignoring the fact that our demographic data came from the last Portuguese census (which happened in 2011), population estimates based on residence are far from optimal measures of density. The spatial distribution of people shifts significantly as they go about their daily lives (home, work, errands). This pattern has been shown clearly in Manhattan by [this incredible visualization](https://manpopex.us/) using data from the subway's entries and exits. I think we can assume that a similar ebb and flow of citizens takes place in Lisbon, but until someone at [Metropolitano de Lisboa](https://www.metrolisboa.pt/) replies to my emails requesting turnstile data I won't be able to check for myself.
