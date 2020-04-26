@@ -11,11 +11,11 @@ TLDR: combined data from Zomato's API and geometric manipulations to estimate th
 
 [A Padaria Portuguesa](https://www.apadariaportuguesa.pt/) is a modern-styled yet somehow traditional bakery born and raised in the heart of Lisbon's hipster revolution. Their primordial boutique opened its doors the 5th of November (remember, remember...) of 2010 at the prime location of [Avenida João XXI](https://goo.gl/maps/dSrT1qnjpWMwwu4M6). Since then additional shops have been popping up like mushrooms after the rain. Nearly a decade later, they have reached all but omnipresence in the city, and currently own a whopping **62 locations** in the greater Lisbon area.
 
-Having lived in the city for most of this meteoric rise, my curiosity kicked in and I wondered... 
+Having lived in the city and witnessed most of this meteoric rise I wondered... 
 
-## What fraction of Lisbon is covered by Padarias?
+## How much of Lisbon is covered by Padarias?
 
-The first step to approach this question is mining the locations of every restaurant. Luckily for us, Zomato has a free [API](https://developers.zomato.com/api) that is very rich and easy to use (but not without its restrictions). In order to geographically constrain the analysis I focused only on the locations within the city limits of Lisbon (found [here](http://geodados.cm-lisboa.pt/datasets/freguesias-2012)). This decreased the total number of shops down to **45**. Once we have these two very simple datasets we can visualize their distribution.
+The first step to approach this question was mining the locations of every restaurant. Luckily for us, Zomato has a free [API](https://developers.zomato.com/api) that is very rich and easy to use (but not without its restrictions). In order to geographically constrain the analysis I focused only on the locations within the city limits of Lisbon (found [here](http://geodados.cm-lisboa.pt/datasets/freguesias-2012)). This decreased the total number of shops down to **45**. Once these two very simple datasets were obtained I could visualize their distribution.
 
 ### Fig. 1 - Lisbon map and Padaria locations
 
@@ -26,25 +26,26 @@ Introducing [the pedestrian shed.](https://morphocode.com/the-5-minute-walk/)
 
 > *"The 5-minute walk, also known as the “pedestrian shed” is considered to be the distance people are willing to walk before opting to drive. Based on the average walking speed a five-minute walk is represented by a radius measuring ¼ of a mile or about <u>400 meters</u>."*
 
-Even though this concept doesn't really apply to old-world capitals with scarce parking, there are so many cafés in Lisbon that I think it's safe to assume that very few locals would be willing to walk for more than 5 minutes for an espresso and a [pão de deus](https://nit.pt/buzzfood/cafes-e-bares/a-receita-do-famoso-pao-de-deus-da-padaria-portuguesa-que-pode-fazer-em-casa). As a compromise, to calculate the area covered by padarias I drew a **500 m** radius circle around each location and computed the union between all the shapes.
+Even though this concept doesn't really apply to old-world capitals with scarce parking, there are so many cafés in Lisbon that it's safe to assume that very few locals would be willing to walk for more than 5 minutes for an espresso and a [pão de deus](https://nit.pt/buzzfood/cafes-e-bares/a-receita-do-famoso-pao-de-deus-da-padaria-portuguesa-que-pode-fazer-em-casa). As compromise, I calculated the area covered by padarias by drawing a **500 m** radius circle around each location and computed the union between all the shapes.
 
 ### Fig. 2 - Total area of influence
 
 <p align="center">
   <img src="/assets/posts/padarias/area_difference.png" />
 </p>
-Thus, if we compute the area of the red-shaded region and divide it by the total city area we get a nice round value of **25%.** 
+Thus, if we compute the area of the red-shaded region and divide it by the total city area we get a nice round value of **25%.** This is quite impressive for a business that is even younger than Greta.
 
-Because people are not uniformly distributed within a city, surface area might not be the most interesting metric to measure the reach of a business. In an attempt to extend this analysis to the population level, I re-calculated the area covered by padarias but for each administrative subdivision of Lisbon (also known as [freguesias](https://pt.wikipedia.org/wiki/Lista_de_freguesias_de_Lisboa)) and multiplied it by their respective population. 
+Because people do not distribute uniformly within a city, or within anything for that matter, surface area might not be the most interesting metric to measure the reach of a business. In an attempt to extend this analysis to the population level, I re-calculated the area covered by padarias but for each administrative subdivision of Lisbon (also known as [freguesias](https://pt.wikipedia.org/wiki/Lista_de_freguesias_de_Lisboa)) and multiplied it by their respective population. 
 
 ### Fig. 3 - Population reached by freguesia
 
 <p align="center">
   <img src="/assets/posts/padarias/population_reached.png" />
 </p>
+Again, if we sum the total population reached by each subdivision and divide by the total population of the city we observe a coverage of **31.1%**.  In other words, this number is an estimate of the population that lives within 5-min walking distance of one of these bakeries.
 
-Again, if we sum the total population reached by each subdivision and divide by the total population of the city we see **31.1%**. 
 
-It is important to note that much like for the entire city, population is also not evenly distributed within sub-regions, but there's only so much that we can do. Furthermore, population density is not a static number, it has significant daily shifts as people move around the city during the day (home, work, errands, etc.). This is wonderfully shown by [this incredible visualization](https://manpopex.us/) in NYC using the subway's turnstile data as a measure for a fluid pop. density. 
 
-I would definitely like to attempt a similar analysis if Metro Lisboa would reply to my emails requesting turnstile data. 
+Apart from the fact that these numbers came from the last census in Portugal which happened in 2011, It is important to note that much like for the entire city, population is also not evenly distributed within sub-regions, but there's only so much that we can do. Furthermore, population density is not a static number,  shifts significantly as people move around the city during the day (home, work, errands, etc.). This pattern is shown clearly by [this incredible visualization](https://manpopex.us/) in New York using the subway's turnstile data.
+
+We can assume that the same happens in Lisbon, but until someone at Metro Lisboa replies to my emails requesting turnstile data won't be able to find out. 
