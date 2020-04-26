@@ -26,7 +26,7 @@ Introducing [the pedestrian shed.](https://morphocode.com/the-5-minute-walk/)
 
 > *"The 5-minute walk, also known as the “pedestrian shed” is considered to be the distance people are willing to walk before opting to drive. Based on the average walking speed a five-minute walk is represented by a radius measuring ¼ of a mile or about <u>400 meters</u>."*
 
-Even though this concept doesn't really apply to old-world capitals with scarce parking, there are so many cafés in Lisbon that it's safe to assume that very few locals would be willing to walk for more than 5 minutes for an espresso and a [pão de deus](https://nit.pt/buzzfood/cafes-e-bares/a-receita-do-famoso-pao-de-deus-da-padaria-portuguesa-que-pode-fazer-em-casa). As compromise, I calculated the area covered by padarias by drawing a **500 m** radius circle around each location and computed the union between all the shapes ([Figure 2](### fig.-2-total-area-of-influence)).
+Even though this concept doesn't really apply to old-world capitals with scarce parking, there are so many cafés in Lisbon that it's safe to assume that very few locals would be willing to walk for more than 5 minutes for an espresso and a [pão de deus](https://nit.pt/buzzfood/cafes-e-bares/a-receita-do-famoso-pao-de-deus-da-padaria-portuguesa-que-pode-fazer-em-casa). As compromise, I calculated the area covered by padarias by drawing a **500 m** radius circle around each location and determined the union between all the rings.
 
 ### Fig. 2 - Total area of influence
 
@@ -35,17 +35,17 @@ Even though this concept doesn't really apply to old-world capitals with scarce 
 </p>
 Thus, if we compute the area of the red-shaded region and divide it by the total city area we get a nice round value of **25%.** This is quite impressive for a business that is younger than Greta.
 
-Because people do not distribute uniformly within a city, or within anything for that matter, surface area might not be the most interesting metric to measure the reach of a business. In an attempt to extend this analysis to the population level, I re-calculated the area covered by padarias but for each administrative subdivision of Lisbon (also known as [freguesias](https://pt.wikipedia.org/wiki/Lista_de_freguesias_de_Lisboa)) and multiplied it by their respective population. 
+Because people do not distribute uniformly within a city, or within anything for that matter, surface area might not be the most interesting metric to measure the reach of a business. In an attempt to extend this analysis to the population level, I re-calculated the area covered by padarias but for each administrative subdivision of Lisbon (also known as [freguesias](https://pt.wikipedia.org/wiki/Lista_de_freguesias_de_Lisboa)) and multiplied it by their respective [population](https://censos.ine.pt/xportal/xmain?xpid=CENSOS&xpgid=censos_quadros) (INE, last census 2011). 
 
 ### Fig. 3 - Population reached by freguesia
 
 <p align="center">
   <img src="/assets/posts/padarias/population_reached.png" />
 </p>
-Again, if we sum the total population reached by each subdivision and divide by the total population of the city we observe a coverage of **31.1%**.  In other words, this number is an estimate of the population that lives within 5-min walking distance of one of these bakeries.
+Once more, we tallied the population reached in each freguesia and divided by the total city population and observed a coverage of **31.1%**.  In other words, this number is an estimate of the population proportion that lives within 5-min walking distance of one of these bakeries.
 
 ### Final remarks
 
 Apart from the fact that these numbers came from the last census in Portugal which happened in 2011, It is important to note that much like for the entire city, population is also not evenly distributed within sub-regions, but there's only so much that we can do. Furthermore, population density is not a static number,  shifts significantly as people move around the city during the day (home, work, errands, etc.). This pattern is shown clearly by [this incredible visualization](https://manpopex.us/) in New York using the subway's turnstile data.
 
-We can assume that the same happens in Lisbon, but until someone at [Metropolitano de Lisboa](https://www.metrolisboa.pt/) replies to my emails requesting turnstile data I won't be able to find out. ([Figure 2](###fig.-2-total-area-of-influence))
+We can assume that the same happens in Lisbon, but until someone at [Metropolitano de Lisboa](https://www.metrolisboa.pt/) replies to my emails requesting turnstile data I won't be able to find out.
