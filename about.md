@@ -7,4 +7,4 @@ Hi, I'm Ricardo. I've always wanted to be a scientist but then I became one. Aft
 
 This website aims to share short-stories based on statistics that also entertain.
 
-Contact me: <a href="mailto:ricardo.zsilva@gmail.com"> <i class="fas fa-envelope"></i></a>
+Contact me:  <a href="mailto:ricardo.zsilva@gmail.com"> <i class="fas fa-envelope"></i></a>
