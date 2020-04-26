@@ -40,7 +40,7 @@ Because people are not uniformly distributed within a city, surface area might n
 ### Fig. 3 - Population reached by freguesia
 
 <p align="center">
-  <img src="/assets/posts/padarias/area_freguesia.png" />
+  <img src="/assets/posts/padarias/population_reached.png" />
 </p>
 
 Again, if we sum the total population reached by each subdivision and divide by the total population of the city we see **31.1%**. 
