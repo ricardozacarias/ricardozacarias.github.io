@@ -42,8 +42,8 @@ Because people do not distribute uniformly within a city, or anywhere for that m
 <p align="center">
   <img src="/assets/posts/padarias/population_reached.png" />
 </p>
-I tallied the population reached in each freguesia (189.668) and divided by the total population of city (552.700), resulting in a coverage of **31.1%**.  In other words, this number is an estimate of the population proportion that lives within 5-min walking distance of one of these bakeries.
+I tallied the population reached in each freguesia (189.668) and divided it by the total population of the city (552.700), resulting in a coverage of **31.1%**.  In other words, this number is an estimate of the population proportion that lives within 5-min walking distance of one of these bakeries.
 
 ### Final remarks
 
-Ignoring the fact that our demographic data came from the last Portuguese census (which happened in 2011), population estimates based on residence are far from optimal measures of density. The spatial distribution of people shifts significantly as people go about their daily lives (home, work, errands). This pattern is shown clearly in Manhattan by [this incredible visualization](https://manpopex.us/) using data from the subway's entries and exits. I think we can assume that a similar ebb and flow of citizens takes place in Lisbon, but until someone at [Metropolitano de Lisboa](https://www.metrolisboa.pt/) replies to my emails requesting turnstile data I won't be able to try.
+Ignoring the fact that our demographic data came from the last Portuguese census (which happened in 2011), population estimates based on residence are far from optimal measures of density. The spatial distribution of people shifts significantly as they go about their daily lives (home, work, errands). This pattern is shown clearly in Manhattan by [this incredible visualization](https://manpopex.us/) using data from the subway's entries and exits. I think we can assume that a similar ebb and flow of citizens takes place in Lisbon, but until someone at [Metropolitano de Lisboa](https://www.metrolisboa.pt/) replies to my emails requesting turnstile data I won't be able to try.
