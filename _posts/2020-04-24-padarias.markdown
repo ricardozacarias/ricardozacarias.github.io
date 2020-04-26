@@ -33,7 +33,7 @@ Even though this concept doesn't really apply to old-world capitals with scarce 
 <p align="center">
   <img src="/assets/posts/padarias/area_difference.png" />
 </p>
-Thus, if we compute the area of the red-shaded region and divide it by the total city area we get a nice round value of **25%.** This is quite impressive for a business that is even younger than Greta.
+Thus, if we compute the area of the red-shaded region and divide it by the total city area we get a nice round value of **25%.** This is quite impressive for a business that is younger than Greta.
 
 Because people do not distribute uniformly within a city, or within anything for that matter, surface area might not be the most interesting metric to measure the reach of a business. In an attempt to extend this analysis to the population level, I re-calculated the area covered by padarias but for each administrative subdivision of Lisbon (also known as [freguesias](https://pt.wikipedia.org/wiki/Lista_de_freguesias_de_Lisboa)) and multiplied it by their respective population. 
 
