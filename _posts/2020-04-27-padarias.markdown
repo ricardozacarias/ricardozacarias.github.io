@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The reach of 'A Padaria Portuguesa'"
+title:  "The reach of A Padaria Portuguesa"
 date:   2020-04-27
 categories: Lisbon GIS Python
 permalink: /:title
