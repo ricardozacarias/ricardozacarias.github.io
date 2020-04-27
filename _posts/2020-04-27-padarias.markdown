@@ -49,3 +49,8 @@ I tallied the population reached in each freguesia (189.668) and divided it by t
 For the people in charge of expansion perhaps it would be more interesting to see not the amount of people within their service area, but the inverse. For instance, Areeiro and Penha de França are some of the most densely populated regions, but only have a small fraction of coverage and should hold priority when considering new locations <i class="far fa-smile-wink"></i>.
 
 Ignoring the fact that our demographic data came from the last Portuguese census (which happened in 2011), population estimates based on residence are far from optimal measures of density. The spatial distribution of people shifts significantly as they go about their daily lives (home, work, errands). This pattern has been shown clearly in Manhattan by [this incredible visualization](https://manpopex.us/) using data from the subway's entries and exits. I think we can assume that a similar ebb and flow of citizens takes place in Lisbon, but until someone at [Metropolitano de Lisboa](https://www.metrolisboa.pt/) replies to my emails requesting turnstile data I won't be able to check for myself.
+
+<h1 id="posts-label"></h1>
+
+[GitHub Repository](https://github.com/ricardozacarias/padarias)
+
