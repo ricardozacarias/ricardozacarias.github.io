@@ -11,5 +11,9 @@ This website aims to share short-stories based on statistics that connect with p
 
 <p align="center">
     Contact me
+</p>
+
+<p align="center">
     <a href="mailto:ricardo.zsilva@gmail.com"><i class="fas fa-envelope"></i></a>
 </p>
+
