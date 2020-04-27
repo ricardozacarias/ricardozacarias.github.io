@@ -2,7 +2,7 @@
 layout: post
 title:  "The reach of A Padaria Portuguesa"
 date:   2020-04-27
-categories: Lisbon GIS Pão
+categories: Lisbon GIS Bread
 permalink: /:title
 ---
 TLDR: combined data from Zomato's API and geometric manipulations to estimate the proportion of Lisbon's surface area and population that lies within a 5-min walk of a Padaria Portuguesa. 
@@ -53,4 +53,3 @@ Ignoring the fact that our demographic data came from the last Portuguese census
 <h1 id="posts-label"></h1>
 
 [GitHub Repository](https://github.com/ricardozacarias/padarias)
-
