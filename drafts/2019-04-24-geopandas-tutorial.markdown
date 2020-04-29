@@ -1,23 +1,17 @@
 ---
 layout: post
-title:  "Geopandas tutorial"
-date:   2019-03-23 21:03:36 +0530
-categories: Python Geopandas Tutorial
+title:  "Geopandas Tutorial"
+date:   2020-05-11
+categories: Python Geodata Geopandas Tutorial
 permalink: /:title
 ---
 TLDR: a short and sweet tutorial based on the content of this [post](https://ricardozacarias.com/padarias). An introduction to Geopandas, choosing the right projections and performing geometric manipulations.
 
 <h1 id="posts-label"></h1>
 
-Once you get a developer key, you can query the code of your city of interest in Zomato's website and then use the /Search API to grab all the restaurants that match your query (note: you can only get 20 restaurants at a time, up to 100 max). Grabbing data from Zomato is not really the scope of this article but you can find the code I used [here](github.com).
+You might have noticed from my previous posts that I like maps. I think there's something about squiggly lines filled with colors that reminds me of children's coloring books. 
 
-| restaurant.name                               | restaurant.latitude |      | restaurant.longitude |
-| --------------------------------------------- | :-----------------: | ---- | :------------------: |
-| A Padaria Portuguesa - Duque D'Ávila          |       38.735        |      |       -9.14402       |
-| A Padaria Portuguesa - Camões                 |       38.7111       |      |       -9.14321       |
-| A Padaria Portuguesa - Barata Salgueiro       |       38.7216       |      |       -9.14896       |
-| A Padaria Portuguesa - Campo de Ourique       |       38.7184       |      |       -9.16477       |
-| A Padaria Portuguesa - António Augusto Aguiar |       38.7319       |      |       -9.15185       |
+If you want to try it out you can download the data I used here and here.
 
 Alright so now we have the latitude and longitude coordinates for each store, let's look at them. This is where one of my favorite Python libraries comes in: [Geopandas](https://geopandas.org/).
 
@@ -29,7 +23,7 @@ To oversimplify it, Geopandas integrates:
 - Shapely: to calculate distances and geometric manipulations;
 - Matplotlib: to plot maps.
 
-Geopandas combines all these libraries into one, awesome geo-package.
+Geopandas combines all these libraries into **one, awesome** geo-package.
 
 
 
