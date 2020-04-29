@@ -1,8 +1,6 @@
 ---
-layout: post
-title:  "The rise and quarantine of Lisbon's AirBnB market"
-date:   2020-05-05
-categories: AirBnB Lisbon Low-hanging-fruit
+layout: default
+title:  "draft"
 permalink: /:title
 ---
 TLDR: 
