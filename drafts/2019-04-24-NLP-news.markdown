@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Ideas"
+date:   2020-05-11
+categories: Python Geodata Geopandas Tutorial
+permalink: /:title
+---
+TLDR: just a list of analysis.
+
+<h1 id="posts-label"></h1>
+
+Project ideas:
+
+1. text analysis on different portuguese newspapers
+2. Airbnb and quarantine (maybe wait for INE data from first semester of 2020)
+3. API Carris
+4. API EMEL
+
