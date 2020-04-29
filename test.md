@@ -1,6 +1,8 @@
 ---
-layout: about
+layout: post
 title: "sup"
+date:   2020-04-27
+categories: Lisbon GIS Bread
 ---
 TLDR: 
 
