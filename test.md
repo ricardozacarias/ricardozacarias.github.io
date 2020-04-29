@@ -1,7 +1,6 @@
 ---
-layout: default
-title:  "draft"
-permalink: /:title
+layout: about
+title: "sup"
 ---
 TLDR: 
 
