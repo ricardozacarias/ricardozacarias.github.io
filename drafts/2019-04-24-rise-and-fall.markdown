@@ -9,6 +9,8 @@ TLDR:
 
 <h1 id="posts-label"></h1>
 
+AirBnB started as an 'original' idea of two roommates putting a mattress in the living room. Otherwise known as monetizing couch surfing (which started way back in 2003).
+
 The exponential growth of AirBnB listings in Lisbon has been documented... extensively.
 
 Got the data from the awesome [insideairbnb.com](). A watchdog website that keeps track 

@@ -7,6 +7,8 @@ Hi, I'm Ricardo. I've always wanted to be a scientist until I became one. After 
 
 This website aims to share short-stories based on statistics that connect with people but also entertain.
 
+Disclaimer: while these stories are backed up by data, they are not devoid of opinion and personal biases.
+
 <h1 id="posts-label"></h1>
 
 <p align="center">
