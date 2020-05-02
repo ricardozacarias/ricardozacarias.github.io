@@ -25,7 +25,7 @@ Median rent by neighbourhood [here](https://ine.pt/xportal/xmain?xpgid=ine_main&
 
 Article:
 
-Isn't it funny how we all love to travel but hate tourists?
+Isn't it funny how we all love to travel but hate tourists? 
 
 
 
@@ -40,6 +40,10 @@ Wow this graph really has the shape of a sustainable process doesn't it?
 
 
 Got the data from the awesome [insideairbnb.com](). A watchdog website that keeps track 
+
+
+
+The next logical step in this story would be to cross AirBnB locations with the construction data but...
 
 Exact location provided after booking
 
