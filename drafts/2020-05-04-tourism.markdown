@@ -27,21 +27,31 @@ Article:
 
 Isn't it funny how we all love to travel but hate tourists? 
 
+The explosion in tourism in Portugal and its role in economic recovery has been documented... extensively. As such it is beyond the scope of this article. Instead, much like a hypochondriac reading every word in the leaflet of a prescription drug, I'm more interested in the side effects. 
+
+AirBnB started as an 'original' idea of two roommates placing an extra mattress in the living room. Otherwise known as monetizing couch surfing (which started way back in 2003). As it grew in popularity, ambition followed and now has achieved 'disruption' of much more than the hotel industry. In the case of Lisbon, the number of AirBnB have reached epic proportions.
+
+(compare across cities)
 
 
-AirBnB started as an 'original' idea of two roommates placing an extra mattress in the living room. Otherwise known as monetizing couch surfing (which started way back in 2003).
-
-The exponential growth of AirBnB listings in Lisbon has been documented... extensively. But not by me!
 
 (reviews over time)
 
-Wow this graph really has the shape of a sustainable process doesn't it?
+(scatter geo)
 
+- Say percentage of Entire apartments
+- Say percentage above 6 months
+- So much for the "extra mattress" in a living room...
 
+Wow this graph really has the shape of a sustainable process doesn't it? Nothing wrong ever happened after an exponential pattern. At least there's hope that quarantine has taught people about flattening curves. How about flattening this curve huh?
+
+Fortunately government is finally taking [some steps](https://eco.sapo.pt/2019/10/23/lisboa-trava-novos-alojamentos-locais-na-baixa-avenida-da-liberdade-e-almirante-reis/) in an attempt to flatten this particular curve. They've defined radioactive-like *absolute containment areas* where no more apartments can be registered for short-term stay. It could a be a little late,
 
 Got the data from the awesome [insideairbnb.com](). A watchdog website that keeps track 
 
+(alvaras and listings side by side)
 
+(video)
 
 The next logical step in this story would be to cross AirBnB locations with the construction data but...
 
@@ -55,3 +65,4 @@ Exact location provided after booking
 
 
 We can't deny that our city is looking sharp. The only problem is we can't afford it.
+
