@@ -43,9 +43,7 @@ AirBnB started as an 'original' idea of two roommates placing an extra mattress 
 - Say percentage above 6 months
 - So much for the "extra mattress" in a living room...
 
-Wow this graph really has the shape of a sustainable process doesn't it? Nothing wrong ever happened after an exponential pattern. At least there's hope that quarantine has taught people about flattening curves. How about flattening this curve huh?
-
-Fortunately government is finally taking [some steps](https://eco.sapo.pt/2019/10/23/lisboa-trava-novos-alojamentos-locais-na-baixa-avenida-da-liberdade-e-almirante-reis/) in an attempt to flatten this particular curve. They've defined radioactive-like *absolute containment areas* where no more apartments can be registered for short-term stay. It could a be a little late,
+Wow this graph really has the shape of a sustainable process doesn't it? Nothing wrong ever happened after an exponential pattern. Recently government took [some steps](https://eco.sapo.pt/2019/10/23/lisboa-trava-novos-alojamentos-locais-na-baixa-avenida-da-liberdade-e-almirante-reis/) in an attempt to flatten this particular curve. They've defined radioactive-like *absolute containment areas* where no more apartments can be registered for short-term stay.
 
 Got the data from the awesome [insideairbnb.com](). A watchdog website that keeps track 
 
