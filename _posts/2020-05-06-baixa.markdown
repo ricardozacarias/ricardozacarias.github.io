@@ -13,13 +13,17 @@ While I was doing research for a short article on tourism, my progress was acute
 
 > *The shapefile format is a geospatial vector data format for geographic information system (GIS) software.*
 
-In practical terms this means that for each construction permit there was also a **polygon** describing its shape and its geographical location. Let's see it.
+In practical terms this means that for each construction permit, besides information about the project itself (for example it its a demolition, construction or alteration), there was also a **polygon** describing its shape and its geographical location. This makes it easy to visualize.
 
 ### Fig. 1 - Construction permits issued in Lisbon
 
 <p align="center">
   <img src="/assets/posts/baixa/alvaras.png" />
 </p>
+
+This picture showed some potential but it was definitely missing something. First of all, it needs some context. Instead of just drawing the neighborhood borders to contain this picture I realized that the best answer would be also plot buildings that were not subject to any development. 
+
+First of all, there are way too many buildings in the city to be able to see anything interesting. 
 
 
 
