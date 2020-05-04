@@ -39,13 +39,15 @@ While this already looks much better, there are way too many buildings in the ci
 
 In an attempt to elevate this project into something more than just eye candy, I decided to try and estimate the percentage of buildings that were modified in the last 10 years. This was tricky because of reasons: 
 
-1. the polygons in the permit database did not match exactly the ones found on OpenStreetMap;
-2. a lot of permits actually cover more than one building;
-3. comparing orange area with grey area was not feasible because of exterior projects (see Martim Moniz Square for an example);
+- The polygons in the permit database did not match exactly the ones found on OpenStreetMap;
+- A lot of permits actually cover more than one building;
+- Comparing orange area with grey area was not feasible because of exterior projects (see Martim Moniz Square for an example);
 
 My solution was to define a representative point for every building and then checking each of them to see if they fell within an orange polygon. Using this strategy I estimated that, in the past decade, **2003** buildings out of a total of **2799** were subject to some form of construction project that required a license. That is **71.6%** and sounds like A LOT.
 
 **Finally, because the data spans 10 years and I like to dabble in video editing, here's a movie:**
+
+
 
 <p align="center">
   <img src="/assets/posts/baixa/baixa_animation.gif" />
