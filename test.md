@@ -8,6 +8,67 @@ TLDR:
 
 <h1 id="posts-label"></h1>
 
-The exponential growth of AirBnB listings in Lisbon has been documented... extensively.
+Data Sources:
+
+Every building in Portugal [source](https://download.geofabrik.de/europe/portugal.html).
+
+Construction permits by Camara Municipal de Lisboa [here]([http://geodados.cm-lisboa.pt/datasets/alvar%C3%A1s-para-obras-de-edifica%C3%A7%C3%A3o-e-demoli%C3%A7%C3%A3o](http://geodados.cm-lisboa.pt/datasets/alvarás-para-obras-de-edificação-e-demolição)).
+
+AirBnB listings and review data [here](http://insideairbnb.com/get-the-data.html).
+
+Median rent by neighbourhood [here](https://ine.pt/xportal/xmain?xpgid=ine_main&xpid=INE).
+
+
+
+Article:
+
+Isn't it funny how we all love to travel but hate tourists? 
+
+The explosion in tourism in Portugal and its role in economic recovery has been documented... extensively. As such it is beyond the scope of this article. Instead, much like a hypochondriac reading every word in the leaflet of a prescription drug, I'm more interested in the side effects. 
+
+AirBnB started as an 'original' idea of two roommates placing an extra mattress in the living room. Otherwise known as monetizing couch surfing (which started way back in 2003). As it grew in popularity, ambition followed and now has achieved 'disruption' of much more than the hotel industry. In the case of Lisbon, the number of AirBnB have reached epic proportions.
+
+
+
+<p align="center">
+  <img src="/assets/posts/tourism/area_difference.png" />
+</p>
+
+(compare across cities)
+
+
+
+(reviews over time)
+
+(scatter geo)
+
+- Say percentage of Entire apartments
+- Say percentage above 6 months
+- So much for the "extra mattress" in a living room...
+
+Wow this graph really has the shape of a sustainable process doesn't it? Nothing wrong ever happened after an exponential pattern. Recently government took [some steps](https://eco.sapo.pt/2019/10/23/lisboa-trava-novos-alojamentos-locais-na-baixa-avenida-da-liberdade-e-almirante-reis/) in an attempt to flatten this particular curve. They've defined radioactive-like *absolute containment areas* where no more apartments can be registered for short-term stay.
 
 Got the data from the awesome [insideairbnb.com](). A watchdog website that keeps track 
+
+(alvaras and listings side by side)
+
+
+
+<p align="center">
+  <img src="/assets/posts/tourism/baixa_animation.gif" />
+</p>
+
+
+
+The next logical step in this story would be to cross AirBnB locations with the construction data but...
+
+Exact location provided after booking
+
+- Location information for listings are anonymized by Airbnb.
+
+- - In practice, this means the location for a listing on the map, or in the data will be from 0-450 feet (150 metres) of the actual address.
+  - Listings in the same building are anonymized by Airbnb individually, and therefore may appear "scattered" in the area surrounding the actual address.
+
+
+
+We can't deny that our city is looking sharp. The only problem is we can't afford it.
