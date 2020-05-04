@@ -31,7 +31,7 @@ AirBnB started as an 'original' idea of two roommates placing an extra mattress 
 
 
 <p align="center">
-  <img src="/assets/posts/tourism/listings_by_city.png" />
+  <img src="/assets/posts/tourism/figure1.png" />
 </p>
 
 (compare across cities)
