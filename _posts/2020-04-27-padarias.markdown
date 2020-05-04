@@ -9,24 +9,24 @@ TLDR: combined data from Zomato's API and geometric manipulations to estimate th
 
 <h1 id="posts-label"></h1>
 
-[A Padaria Portuguesa](https://www.apadariaportuguesa.pt/) is a modern-styled yet somehow traditional bakery born and raised in the heart of Lisbon's hipster revolution. Their primordial boutique opened its doors the 5th of November (remember, remember...) of 2010 at the prime location of [Avenida João XXI](https://goo.gl/maps/dSrT1qnjpWMwwu4M6). Since then additional shops have been popping up like mushrooms after the rain. Nearly a decade later, they have reached all but omnipresence in the city, and currently own a whopping **62 locations** in the greater Lisbon area.
+[A Padaria Portuguesa](https://www.apadariaportuguesa.pt/){:target="_blank"} is a modern-styled yet somehow traditional bakery born and raised in the heart of Lisbon's hipster revolution. Their primordial boutique opened its doors the 5th of November (remember, remember...) of 2010 at the prime location of [Avenida João XXI](https://goo.gl/maps/dSrT1qnjpWMwwu4M6){:target="_blank"}. Since then additional shops have been popping up like mushrooms after the rain. Nearly a decade later, they have reached all but omnipresence in the city, and currently own a whopping **62 locations** in the greater Lisbon area.
 
 Having witnessed most of this meteoric rise I wondered... 
 
 ## How much of Lisbon is covered by Padarias?
 
-The first step to approach this question was mining the locations of every restaurant. Luckily for us, Zomato has a free [API](https://developers.zomato.com/api) that is very rich and easy to use (but not without its restrictions). In order to geographically constrain the analysis I focused only on the locations within the city limits of Lisbon (found [here](http://geodados.cm-lisboa.pt/datasets/freguesias-2012)). This filtered the total number of shops down to **45**. Once these two very simple datasets were obtained I could visualize their distribution.
+The first step to approach this question was mining the locations of every restaurant. Luckily for us, Zomato has a free [API](https://developers.zomato.com/api) that is very rich and easy to use (but not without its restrictions). In order to geographically constrain the analysis I focused only on the locations within the city limits of Lisbon (found [here](http://geodados.cm-lisboa.pt/datasets/freguesias-2012){:target="_blank"}). This filtered the total number of shops down to **45**. Once these two very simple datasets were obtained I could visualize their distribution.
 
 ### Fig. 1 - Lisbon map and Padaria locations
 
 <p align="center">
   <img src="/assets/posts/padarias/basemap_locations.png" />
 </p>
-Introducing [the pedestrian shed.](https://morphocode.com/the-5-minute-walk/)
+Introducing [the pedestrian shed](https://morphocode.com/the-5-minute-walk/){:target="_blank"}.
 
 > *"The 5-minute walk, also known as the “pedestrian shed” is considered to be the distance people are willing to walk before opting to drive. Based on the average walking speed a five-minute walk is represented by a radius measuring ¼ of a mile or about <u>400 meters</u>."*
 
-Even though this concept doesn't really apply to old-world capitals with scarce parking, there are so many cafés in Lisbon that it's safe to assume that very few locals would be willing to walk for more than 5 minutes for an espresso and a [pão de deus](https://nit.pt/buzzfood/cafes-e-bares/a-receita-do-famoso-pao-de-deus-da-padaria-portuguesa-que-pode-fazer-em-casa). As compromise and because I'm an impatient walker, I calculated the area covered by padarias by drawing a **500 m** radius around each location and determined the union between all the rings.
+Even though this concept doesn't really apply to old-world capitals with scarce parking, there are so many cafés in Lisbon that it's safe to assume that very few locals would be willing to walk for more than 5 minutes for an espresso and a [pão de deus](https://nit.pt/buzzfood/cafes-e-bares/a-receita-do-famoso-pao-de-deus-da-padaria-portuguesa-que-pode-fazer-em-casa){:target="_blank"}. As compromise and because I'm an impatient walker, I calculated the area covered by padarias by drawing a **500 m** radius around each location and determined the union between all the rings.
 
 ### Fig. 2 - Total area of influence
 
@@ -35,7 +35,7 @@ Even though this concept doesn't really apply to old-world capitals with scarce 
 </p>
 Thus, if we compute the area of the red-shaded region and divide it by the total city area we get a nice round value of **25%.** This is quite impressive for a business that is younger than Greta.
 
-Because people do not distribute uniformly within a city, or anywhere for that matter, surface area might not be the most appropriate metric to measure the reach of a business. In an attempt to extend this analysis to the population level, I re-calculated the area covered by padarias but for each administrative subdivision of Lisbon (also known as [freguesias](https://pt.wikipedia.org/wiki/Lista_de_freguesias_de_Lisboa)) and multiplied it by their respective population (found at [Instituto Nacional de Estatística](https://censos.ine.pt/xportal/xmain?xpid=CENSOS&xpgid=censos_quadros)). For example, if a subregion has 100 inhabitants and 80% of its area covered in red, then it reaches 80 people.
+Because people do not distribute uniformly within a city, or anywhere for that matter, surface area might not be the most appropriate metric to measure the reach of a business. In an attempt to extend this analysis to the population level, I re-calculated the area covered by padarias but for each administrative subdivision of Lisbon (also known as [freguesias](https://pt.wikipedia.org/wiki/Lista_de_freguesias_de_Lisboa){:target="_blank"}) and multiplied it by their respective population (found at [Instituto Nacional de Estatística](https://censos.ine.pt/xportal/xmain?xpid=CENSOS&xpgid=censos_quadros){:target="_blank"}). For example, if a subregion has 100 inhabitants and 80% of its area covered in red, then it reaches 80 people.
 
 ### Fig. 3 - Population reached by freguesia
 
@@ -48,7 +48,7 @@ I tallied the population reached in each freguesia (189.668) and divided it by t
 
 For the people in charge of expansion perhaps it would be more interesting to see not the amount of people within their service area, but the inverse. For instance, Areeiro and Penha de França are some of the most densely populated regions, but only have a small fraction of coverage and should hold priority when considering new locations (wink wink).
 
-Ignoring the fact that our demographic data came from the last Portuguese census (which happened in 2011), population estimates based on residence are far from optimal measures of density. The spatial distribution of people shifts significantly as they go about their daily lives (home, work, errands). This pattern has been shown clearly in Manhattan by [this incredible visualization](https://manpopex.us/) using data from the subway's entries and exits. I think we can assume that a similar ebb and flow of citizens takes place in Lisbon, but until someone at [Metropolitano de Lisboa](https://www.metrolisboa.pt/) replies to my emails requesting turnstile data I won't be able to check for myself.
+Ignoring the fact that our demographic data came from the last Portuguese census (which happened in 2011), population estimates based on residence are far from optimal measures of density. The spatial distribution of people shifts significantly as they go about their daily lives (home, work, errands). This pattern has been shown clearly in Manhattan by [this incredible visualization](https://manpopex.us/){:target="_blank"} using data from the subway's entries and exits. I think we can assume that a similar ebb and flow of citizens takes place in Lisbon, but until someone at [Metropolitano de Lisboa](https://www.metrolisboa.pt/){:target="_blank"} replies to my emails requesting turnstile data I won't be able to check for myself.
 
 <h1 id="posts-label"></h1>
 
