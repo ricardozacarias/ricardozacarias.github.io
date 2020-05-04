@@ -13,9 +13,9 @@ While I was doing research for a short article on tourism, my progress was acute
 
 > *The shapefile format is a geospatial vector data format for geographic information system (GIS) software.*
 
-In practical terms this means that for each construction permit, besides information about the project itself (for example it its a demolition, construction or alteration), there was also a **polygon** describing its shape and its geographical location. This makes it easy to visualize.
+In practical terms this means that for each construction permit, besides information about the project itself (for example if its a demolition, construction or alteration), there was also a **polygon** describing its shape and its geographical location. This makes it easy to visualize.
 
-### Fig. 1 - Construction permits issued in Lisbon (raw)
+### Fig. 1 - Construction permits issued in Lisbon (2010-2019)
 
 <p align="center">
   <img src="/assets/posts/baixa/alvaras.png" />
@@ -23,7 +23,7 @@ In practical terms this means that for each construction permit, besides informa
 
 This picture showed some potential but it was definitely missing something. First of all, it needed some context. Instead of just drawing the neighborhood borders to contain the data, I realized the best option would be to also plot buildings that were **not** subject to any development. If only there was some sort of [open source alternative](https://www.openstreetmap.org/about){:target="_blank"} to Google Maps.
 
-### Fig. 2 - Buildings and construction in Lisbon
+### Fig. 2 - Construction permits and untouched buildings
 
 <p align="center">
   <img src="/assets/posts/baixa/all_buildings.png" />
@@ -31,7 +31,7 @@ This picture showed some potential but it was definitely missing something. Firs
 
 While this already looks much better, there are way too many buildings in the city to be able to see anything clearly. I decided to focus on the region with the highest density of buildings and construction, the downtown or 'a baixa' (neighborhood [Santa Maria Maior](https://www.jf-santamariamaior.pt/){:target="_blank"}). 
 
-### Fig. 3 - Buildings and construction downtown
+### Fig. 3 - Downtown Lisbon
 
 <p align="center">
   <img src="/assets/posts/baixa/baixa_buildings.png" />
