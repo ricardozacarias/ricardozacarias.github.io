@@ -5,7 +5,7 @@ date:   2020-05-05
 categories: Lisbon Baixa Urban-planning Video-editing
 permalink: /:title
 ---
-TLDR: this is more of a teaser post than an actual story. It's pretty much just a GIF. Used data from Open Street Maps and city hall to visualize construction permits issued for Lisbon's historical center.
+TLDR: It's pretty much just a GIF. Used data from OpenStreetMap and city government to visualize construction permits issued for Lisbon's historical center.
 
 <h1 id="posts-label"></h1>
 
@@ -13,7 +13,7 @@ While I was doing research for a short article on tourism, my progress was acute
 
 > *The shapefile format is a geospatial vector data format for geographic information system (GIS) software.*
 
-In practical terms this means that for each data point, besides information about the project itself (for example if its a demolition, construction or alteration), there was also a **polygon** describing its shape and its geographical location. This makes it easy to plot.
+In practical terms this means that for each data point, besides information about the project itself (for example if its a demolition, construction or alteration), there was also a **polygon** describing its shape and its geographical location. This made it easy to plot.
 
 ### Fig. 1 - Construction permits issued in Lisbon (2010-2019)
 
@@ -21,7 +21,7 @@ In practical terms this means that for each data point, besides information abou
   <img src="/assets/posts/baixa/alvaras.png" />
 </p>
 
-This picture showed some potential but it was definitely missing something. First of all, it needed some context. Instead of just drawing the neighborhood borders to contain the data, I realized the best option would be to also plot buildings that were **not** subject to any development. If only there was some sort of [open source alternative](https://www.openstreetmap.org/about){:target="_blank"} to Google Maps.
+This picture showed some potential but it was definitely missing something. First of all, it needed some context. Instead of just drawing the neighborhood borders to contain the data, I thought the best option would be to also plot buildings that were **not** subject to any development. If only there was some sort of [open source alternative](https://www.openstreetmap.org/about){:target="_blank"} to Google Maps.
 
 ### Fig. 2 - Construction permits and untouched buildings
 
@@ -37,23 +37,15 @@ While this already looks much better, there are way too many buildings in the ci
   <img src="/assets/posts/baixa/baixa_buildings.png" />
 </p>
 
-:heart_eyes:
-
-In an attempt to make this project into something more than just eye candy, I decided to try and estimate the percentage of buildings that were modified in the last 10 years. This was tricky because of reasons: 
+In an attempt to elevate this project into something more than just eye candy, I decided to try and estimate the percentage of buildings that were modified in the last 10 years. This was tricky because of reasons: 
 
 1. the polygons in the permit database did not match exactly the ones found on OpenStreetMap;
 2. a lot of permits actually cover more than one building;
-3. comparing orange area with grey area was not feasible because of outside projects (see Martim Moniz Square);
+3. comparing orange area with grey area was not feasible because of exterior projects (see Martim Moniz Square for an example);
 
+My solution was to define a representative point for every building and then checking each of them to see if they fell within an orange polygon. Using this strategy I estimated that, in the past decade, **2003** buildings out of a total of **2799** were subject to some form of construction project that required a license. That is **71.6%** and sounds like A LOT.
 
-
-
-
-But I also make videos.
-
-
-
-### A movie
+**Finally, because the data spans 10 years and I like to dabble in video editing, here's a movie:**
 
 <p align="center">
   <img src="/assets/posts/baixa/baixa_animation.gif" />
