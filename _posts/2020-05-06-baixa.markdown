@@ -23,15 +23,23 @@ In practical terms this means that for each construction permit, besides informa
 
 This picture showed some potential but it was definitely missing something. First of all, it needed some context. Instead of just drawing the neighborhood borders to contain the data, I realized the best option would be to also plot buildings that were **not** subject to any development. If only there was some sort of [open source alternative](https://www.openstreetmap.org/about){:target="_blank"} to Google Maps.
 
-### Fig. 2 - All buildings in Lisbon
+### Fig. 2 - Buildings and construction in Lisbon
 
 <p align="center">
   <img src="/assets/posts/baixa/all_buildings.png" />
 </p>
 
-While this already looks much better, there are way too many buildings in the city to be able to see anything clearly. I decided to focus on the region with the highest density of buildings and construction, downtown (Santa Maria Maior)
+While this already looks much better, there are way too many buildings in the city to be able to see anything clearly. I decided to focus on the region with the highest density of buildings and construction, the downtown or 'a baixa' (neighborhood [Santa Maria Maior](https://www.jf-santamariamaior.pt/){:target="_blank"}). 
 
-### Fig. 3 - A movie!
+### Fig. 3 - Buildings and construction downtown
+
+<p align="center">
+  <img src="/assets/posts/baixa/baixa_buildings.png" />
+</p>
+
+But I also make videos.
+
+### A movie
 
 <p align="center">
   <img src="/assets/posts/baixa/baixa_animation.gif" />
