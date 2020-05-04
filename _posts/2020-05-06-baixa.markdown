@@ -5,7 +5,7 @@ date:   2020-05-05
 categories: Lisbon Baixa Urban-planning Video-editing
 permalink: /:title
 ---
-TLDR: this is more of a teaser post than an actual story. It's pretty much just a GIF.
+TLDR: this is more of a teaser post than an actual story. It's pretty much just a GIF. Used data from Open Street Maps and city hall to visualize construction permits issued for Lisbon's historical center.
 
 <h1 id="posts-label"></h1>
 
@@ -15,9 +15,13 @@ While I was doing research for a short story on tourism, my progress was acutely
 
 In practical terms this means that for each construction permit there was also a **polygon** describing its shape and its geographical location. 
 
+### Fig. 1 - Construction permits issued in Lisbon
+
+<p align="center">
+  <img src="/assets/posts/baixa/alvaras.png" />
+</p>
 
 
-## How much of Lisbon is covered by Padarias?
 
 <h1 id="posts-label"></h1>
 
