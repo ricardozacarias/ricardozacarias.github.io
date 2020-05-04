@@ -21,4 +21,4 @@ In practical terms this means that for each construction permit there was also a
 
 <h1 id="posts-label"></h1>
 
-[GitHub Repository](https://github.com/ricardozacarias/padarias)
+[GitHub Repository](https://github.com/ricardozacarias/lisbon-buildings)
