@@ -43,7 +43,11 @@ In an attempt to elevate this project into something more than just eye candy, I
 - A lot of permits actually cover more than one building;
 - Comparing orange area with grey area was not feasible because of exterior projects (see Martim Moniz Square for an example);
 
-My solution was to define a representative point for every building and then checking each of them to see if they fell within an orange polygon. Using this strategy I estimated that, in the past decade, **2003** buildings out of a total of **2799** were subject to some form of construction project that required a license. That is **71.6%** and sounds like A LOT.
+My solution was to define a representative point for every building and then checking each of them to see if they fell within an orange polygon. Using this strategy I estimated that, in the past decade, **2003** buildings out of a total of **2799** were subject to some form of construction project that required a license. 
+
+That is **71.6%** and sounds like *a lot*. Maybe my estimations are way off, or perhaps you need a permit to change lightbulbs. 
+
+
 
 **Finally, because the data spans 10 years and I like to dabble in video editing, here's a movie:**
 
