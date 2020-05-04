@@ -21,7 +21,7 @@ In practical terms this means that for each construction permit, besides informa
   <img src="/assets/posts/baixa/alvaras.png" />
 </p>
 
-This picture showed some potential but it was definitely missing something. First of all, it needs some context. Instead of just drawing the neighborhood borders to contain this picture, I realized the best option would be to also plot buildings that were **not** subject to any development. If only there was some sort of [open source alternative](https://www.openstreetmap.org/about){:target="_blank"} to Google Maps.
+This picture showed some potential but it was definitely missing something. First of all, it needed some context. Instead of just drawing the neighborhood borders to contain the data, I realized the best option would be to also plot buildings that were **not** subject to any development. If only there was some sort of [open source alternative](https://www.openstreetmap.org/about){:target="_blank"} to Google Maps.
 
 ### Fig. 2 - All buildings in Lisbon
 
@@ -29,11 +29,13 @@ This picture showed some potential but it was definitely missing something. Firs
   <img src="/assets/posts/baixa/all_buildings.png" />
 </p>
 
-Hey Hey
+While this already looks much better, there are way too many buildings in the city to be able to see anything clearly. I decided to focus on the region with the highest density of buildings and construction, downtown (Santa Maria Maior)
 
-First of all, there are way too many buildings in the city to be able to see anything interesting. 
+### Fig. 3 - A movie!
 
-
+<p align="center">
+  <img src="/assets/posts/baixa/baixa_animation.gif" />
+</p>
 
 <h1 id="posts-label"></h1>
 
