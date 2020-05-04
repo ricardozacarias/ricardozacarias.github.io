@@ -13,7 +13,7 @@ While I was doing research for a short article on tourism, my progress was acute
 
 > *The shapefile format is a geospatial vector data format for geographic information system (GIS) software.*
 
-In practical terms this means that for each construction permit, besides information about the project itself (for example if its a demolition, construction or alteration), there was also a **polygon** describing its shape and its geographical location. This makes it easy to visualize.
+In practical terms this means that for each data point, besides information about the project itself (for example if its a demolition, construction or alteration), there was also a **polygon** describing its shape and its geographical location. This makes it easy to plot.
 
 ### Fig. 1 - Construction permits issued in Lisbon (2010-2019)
 
@@ -31,13 +31,25 @@ This picture showed some potential but it was definitely missing something. Firs
 
 While this already looks much better, there are way too many buildings in the city to be able to see anything clearly. I decided to focus on the region with the highest density of buildings and construction, the downtown or 'a baixa' (neighborhood [Santa Maria Maior](https://www.jf-santamariamaior.pt/){:target="_blank"}). 
 
-### Fig. 3 - Downtown Lisbon
+### Fig. 3 - Downtown Lisbon :heart_eyes:
 
 <p align="center">
   <img src="/assets/posts/baixa/baixa_buildings.png" />
 </p>
 
+In an attempt to make this project into something more than just eye candy, I decided to try and estimate the percentage of buildings that were modified in the last 10 years. This was tricky because of reasons: 
+
+1. the polygons in the permit database did not match exactly the ones found on OpenStreetMap;
+2. a lot of permits actually cover more than one building;
+3. comparing orange area with grey area was not feasible because of outside projects (see Martim Moniz Square);
+
+
+
+
+
 But I also make videos.
+
+
 
 ### A movie
 
