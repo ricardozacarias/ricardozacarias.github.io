@@ -55,7 +55,7 @@ I just counted black dots that were inside an orange polygon and those that were
 
 ### Final remarks
 
-Maybe my estimations are way off or perhaps you need a permit to change a lightbulb in this city. But when you consider that last year in this neighborhood alone there were **85557** AirBnB reviews for **2994** unique listings it doesn't sound so crazy after all ([AirBnB data](http://insideairbnb.com/lisbon/){:target="_blank"}). 
+Maybe my estimations are way off or perhaps you need a permit to change a lightbulb in this city. But when you consider that last year in this neighborhood alone there were **85557** AirBnB reviews for **2994** unique listings 71% doesn't sound so crazy after all ([AirBnB data](http://insideairbnb.com/lisbon/){:target="_blank"}). 
 
 It would be interesting to get more details about the purpose of these construction projects. How many of them were destined for residential or commercial purposes? How many are public works? Including this information would allow us to see the bigger picture of what kind of path the city is taking through these developments. Hopefully we would see that not all of them end up as short-term rental apartments or overpriced restaurants.
 
