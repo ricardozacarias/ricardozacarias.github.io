@@ -45,7 +45,7 @@ In an attempt to elevate this project into something more than just eye candy, I
 
 My solution was to define a representative point for every building and then checking each of them to see if they fell within an orange polygon. Using this strategy I estimated that, in the past decade, **2,003** buildings out of a total of **2,799** were subject to some form of construction project that required a license. That is **71.6%** and sounds like *a lot*. 
 
-Maybe my estimations are way off or perhaps you need a permit to change a lightbulb in this city. But when you consider that in this neighborhood there were **85,557** AirBnB reviews for **2,994** unique listings it doesn't sound so crazy after all. 
+Maybe my estimations are way off or perhaps you need a permit to change a lightbulb in this city. But when you consider that last year in this neighborhood there were **85,557** AirBnB reviews for **2,994** unique listings it doesn't sound so crazy after all. 
 
 
 
