@@ -29,7 +29,7 @@ This picture showed some potential but it was definitely missing something. Firs
   <img src="/assets/posts/baixa/all_buildings.png" />
 </p>
 
-While this already looks much better, there are way too many buildings in the city to be able to see anything clearly. I decided to focus on the region with the highest density of buildings and construction, the downtown or 'a baixa' (neighborhood [Santa Maria Maior](https://www.jf-santamariamaior.pt/){:target="_blank"}). 
+While this already looks much better, there are way too many buildings in the city to be able to see anything clearly. I decided to focus on the region with the highest density of buildings and construction, the downtown or 'a baixa' (dashed circle, neighborhood [Santa Maria Maior](https://www.jf-santamariamaior.pt/){:target="_blank"}). 
 
 ### Fig. 3 - Construction in downtown Lisbon 
 
@@ -43,17 +43,15 @@ In an attempt to elevate this project into something more than just eye candy, I
 - A lot of permits actually cover more than one building;
 - Comparing orange area with grey area was not feasible because of exterior projects (see Martim Moniz Square for an example);
 
-My solution was to define a representative point for every building and then checking each of them to see if they fell within an orange polygon. 
+My solution was to define a representative point for every building and then checking each of them to see if they fell within an orange polygon. The figure below shows an example of how this works.
 
 ### Fig. 4 - Counting buildings
 
 <p align="center">
-  <img src="/assets/posts/baixa/baixa_buildings.png" />
+  <img src="/assets/posts/baixa/counting_buildings.png" />
 </p>
 
-
-
-Using this strategy I estimated that, in the past decade, **2003** buildings out of a total of **2799** were subject to some form of construction project that required a license. That is **71.6%** and sounds like *a lot*. 
+I just counted black dots that were inside an orange polygon and those that were outside. Using this strategy I estimated that, in the past decade, **2003** buildings out of a total of **2799** were subject to some form of construction project that required a license. That is **71.6%** and sounds like *a lot*. 
 
 Maybe my estimations are way off or perhaps you need a permit to change a lightbulb in this city. But when you consider that last year in this neighborhood alone there were **85557** AirBnB reviews for **2994** unique listings it doesn't sound so crazy after all ([AirBnB data](http://insideairbnb.com/lisbon/){:target="_blank"}). 
 
