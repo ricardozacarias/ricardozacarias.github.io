@@ -47,13 +47,9 @@ My solution was to define a representative point for every building and then che
 
 Maybe my estimations are way off or perhaps you need a permit to change a lightbulb in this city. But when you consider that last year in this neighborhood alone there were **85557** AirBnB reviews for **2994** unique listings it doesn't sound so crazy after all ([AirBnB data](http://insideairbnb.com/lisbon/)). 
 
-
-
 **Finally, because the data spans 10 years and I like to dabble in video editing, here's a movie:**
 
 <h1 id="posts-label"></h1>
-
-
 
 <p align="center">
   <img src="/assets/posts/baixa/baixa_animation.gif" />
@@ -61,4 +57,4 @@ Maybe my estimations are way off or perhaps you need a permit to change a lightb
 
 <h1 id="posts-label"></h1>
 
-[GitHub Repository](https://github.com/ricardozacarias/padarias){:target="_blank"}
+[GitHub Repository](https://github.com/ricardozacarias/lisbon-buildings){:target="_blank"}
