@@ -41,7 +41,7 @@ In an attempt to elevate this project into something more than just eye candy, I
 
 - The polygons in the permit database did not match exactly the ones found on OpenStreetMap;
 - Some permits are issued for a range of addresses, including multiple buildings;
-- Comparing orange area with grey area was not feasible because of exterior projects (see [Martim Moniz Square](https://goo.gl/maps/2ULYkBxzdVDW7uiX8) for an example, marked with a black star). This is a large project that doesn't actually involve any building;
+- Comparing orange area with grey area was not feasible because of exterior projects (see [Martim Moniz Square](https://goo.gl/maps/2ULYkBxzdVDW7uiX8){:target="_blank"} for an example, marked with a black star). This is a large project that doesn't actually involve any building;
 
 My solution was to define a representative point for every building and then checking each of them to see if they fell within a construction area. The figure below shows an example of how this works.
 
