@@ -1,0 +1,22 @@
+Previous Posts:
+
+Baixa: 
+- Make GIF into an infinite loop using the moving bar. 
+- Make GIF faster.
+
+
+New Posts:
+
+Tourism:
+- Find the right correlations to make with rent prices.
+- Animation plot of AirBnB locations.
+
+Lisbon buildings:
+- Map of cultural places?
+- App with selection of latitude longitude and highlight the surrounding area?
+- Almost a location intelligence service, this should cost money.
+
+NBA:
+- Shot location visualization
+- Timeout classification?
+
