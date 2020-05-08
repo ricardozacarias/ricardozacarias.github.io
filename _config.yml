@@ -14,7 +14,7 @@ plainwhite:
   analytics_id: "UA-164344589-1"
 
   navigation:
-    - title: Home
+    - title: Stories
       url: "/"
     - title: About
       url: "/about"
