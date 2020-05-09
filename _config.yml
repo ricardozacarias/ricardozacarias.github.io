@@ -15,7 +15,7 @@ plainwhite:
 
   navigation:
     - title: Stories
-      url: "/index#posts-label"
+      url: "https://ricardozacarias.com/#posts-label"
     - title: About
       url: "/about"
 
