@@ -1,37 +1,21 @@
 ---
 layout: post
-title:  "The double-edged sword of tourism"
-date:   2020-05-05
-categories: Lisbon AirBnB Tourism Urban-rehab MAPS!
+title:  "The rise and quarantine of AirBnB in Lisbon"
+date:   2020-05-11
+categories: Lisbon AirBnB Tourism Housing Low-hanging-fruit
 permalink: /:title
 ---
-TLDR: I crossed data from AirBnB, construction permits and rent prices to put numbers behind the debate concerning the recent explosion of tourism in Lisbon
+TLDR: I analyzed AirBnB data in Lisbon, its impact on the housing market and the dramatic effect the COVID-19 quarantine had on 
 
 <h1 id="posts-label"></h1>
-
-
-
-Data Sources:
-
-Every building in Portugal [source](https://download.geofabrik.de/europe/portugal.html).
-
-Construction permits by Camara Municipal de Lisboa [here]([http://geodados.cm-lisboa.pt/datasets/alvar%C3%A1s-para-obras-de-edifica%C3%A7%C3%A3o-e-demoli%C3%A7%C3%A3o](http://geodados.cm-lisboa.pt/datasets/alvarás-para-obras-de-edificação-e-demolição)).
-
-AirBnB listings and review data [here](http://insideairbnb.com/get-the-data.html).
-
-Median rent by neighbourhood [here](https://ine.pt/xportal/xmain?xpgid=ine_main&xpid=INE).
-
-
-
-Article:
 
 Isn't it funny how we all love to travel but hate tourists? 
 
 The explosion in tourism in Portugal and its role in economic recovery has been documented... extensively. As such it is beyond the scope of this article. Instead, much like a hypochondriac reading every word in the leaflet of a prescription drug, I'm more interested in the side effects. 
 
-AirBnB started as an 'original' idea of two roommates placing an extra mattress in the living room. Otherwise known as monetizing couch surfing (which started way back in 2003). As it grew in popularity, ambition followed and now has achieved 'disruption' of much more than the hotel industry. In the case of Lisbon, the number of AirBnB have reached epic proportions.
+AirBnB started as an 'original' idea of two roommates placing an extra mattress in the living room. Otherwise known as monetizing couch surfing (which started way back in 2003). As it grew in popularity, ambition quickly followed and they have now achieved 'disruption' of much more than the hotel industry. In the case of Lisbon, the number of AirBnB have reached epic proportions.
 
-
+### Fig. 1 - AirBnB listings for every 1000 residents in (some) European capitals
 
 <p align="center">
   <img src="/assets/posts/tourism/area_difference.png" />
@@ -76,3 +60,10 @@ Exact location provided after booking
 
 We can't deny that our city is looking sharp. The only problem is we can't afford it.
 
+Data Sources:
+
+Construction permits by Camara Municipal de Lisboa [here]([http://geodados.cm-lisboa.pt/datasets/alvar%C3%A1s-para-obras-de-edifica%C3%A7%C3%A3o-e-demoli%C3%A7%C3%A3o](http://geodados.cm-lisboa.pt/datasets/alvarás-para-obras-de-edificação-e-demolição)).
+
+AirBnB listings and review data [here](http://insideairbnb.com/get-the-data.html).
+
+Median rent by neighbourhood [here](https://ine.pt/xportal/xmain?xpgid=ine_main&xpid=INE).
