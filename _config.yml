@@ -15,7 +15,7 @@ plainwhite:
 
   navigation:
     - title: Stories
-      url: "/#posts-label"
+      url: "/index#posts-label"
     - title: About
       url: "/about"
 
