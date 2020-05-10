@@ -22,7 +22,7 @@ AirBnB started as an 'original' idea of two roommates placing an extra mattress 
 </p>
 
 
-We can see Lisbon tops the chart in number of listings 
+We can see Lisbon tops the chart in number of listings by citizen.
 
 
 
