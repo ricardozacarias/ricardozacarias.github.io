@@ -10,8 +10,6 @@ TLDR: used data from OpenStreetMap and city government to visualize construction
 
 <h1 id="posts-label"></h1>
 
-*This article was updated on 12-05-2020*
-
 While I was doing research for a short article on tourism, my progress was acutely derailed by a [dataset](http://geodados.cm-lisboa.pt/datasets/alvarás-para-obras-de-edificação-e-demolição){:target="_blank"} about construction permits (I know, it sounds like a thrilling story already...). I didn't think much of it myself until I realized it was a [shapefile](https://en.wikipedia.org/wiki/Shapefile){:target="_blank"}. 
 
 > *The shapefile format is a geospatial vector data format for geographic information system (GIS) software.*
@@ -69,5 +67,7 @@ It would be interesting to get more details about the purpose of these construct
 </p>
 
 <h1 id="posts-label"></h1>
+
+*This article was updated on 12-05-2020. But there's no way for you to know what I've changed... what now? Well you'll just have to trust me that it's much better now*
 
 [GitHub Repository](https://github.com/ricardozacarias/lisbon-buildings){:target="_blank"}
