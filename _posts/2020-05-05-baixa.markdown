@@ -44,7 +44,7 @@ In an attempt to elevate this project into something more than just eye candy, I
 
 - The polygons in the permit database did not match exactly the ones found on OpenStreetMap;
 - Some permits are issued for a range of addresses, including multiple buildings;
-- Comparing orange area with grey area was not feasible because of exterior projects (see [Martim Moniz Square](https://goo.gl/maps/2ULYkBxzdVDW7uiX8){:target="_blank"} for an example, marked with a black star). This is a large project that doesn't actually involve any building;
+- Comparing orange area with grey area was not feasible because of exterior projects.
 
 My solution was to define a representative point for every building and then checking each of them to see if they fell within a construction area. The figure below shows an example of how this works.
 
@@ -54,11 +54,9 @@ My solution was to define a representative point for every building and then che
   <img src="/assets/posts/baixa/counting_buildings.png" />
 </p>
 
-I just counted black dots that were inside an orange polygon and those that were outside. Using this strategy I estimated that, in the past decade, **2003** buildings out of a total of **2799** were subject to some form of construction project that required a license. That is **71.6%** and sounds like *a lot*. 
+I just counted black dots that were inside an orange polygon and those that were outside. Using this strategy I estimated that, in the past decade, **1125** buildings out of a total of **2799** were subject to some form of construction project that required a license. That is **40.2%**.
 
 ### Final remarks
-
-Maybe my estimations are way off or perhaps you need a permit to change a lightbulb in this city. But when you consider that last year in this neighborhood alone there were **85557** AirBnB reviews for **2994** unique listings 71% doesn't sound so crazy after all ([AirBnB data](http://insideairbnb.com/lisbon/){:target="_blank"}). 
 
 It would be interesting to get more details about the purpose of these construction projects. How many of them were destined for residential or commercial purposes? How many are public works? Including this information would allow us to see the bigger picture of what kind of path the city is taking through these developments. Hopefully we would see that not all of them end up as short-term rental apartments or overpriced restaurants.
 
