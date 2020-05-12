@@ -16,6 +16,8 @@ AirBnB started as an 'original' idea of two roommates placing an extra mattress 
 
 ### Fig. 1 - AirBnB listings for every 1000 residents in (some) European capitals
 
+*Number of unique listings that received a review in 2019 divided by the city population.*
+
 <p align="center">
   <img src="/assets/posts/tourism/listings_by_city.png" />
 </p>
@@ -25,7 +27,7 @@ We can see Lisbon tops the chart in number of listings by citizen. Also 80% of l
 
 Another way to visualize it is in a map (of course).
 
-### Fig. 2 - Animate AirBnB reviews over time.
+### Fig. 2 - Animate AirBnB reviews over time
 
 
 
@@ -34,6 +36,10 @@ Another way to visualize it is in a map (of course).
 <p align="center">
   <img src="/assets/posts/tourism/linregress.png" />
 </p>
+
+
+
+It's not all bad. To connect this project with one of my previous posts, the fact of the matter is that many old, rotten buildings in historical areas have been rehabilitated. Here for example we can see the number of construction permits issued rising as the number of AirBnBs also increase. We can't deny that our city is looking sharp. The only problem is we can't afford it.
 
 
 
