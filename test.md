@@ -36,5 +36,5 @@ Fig. 2 - Animate AirBnB reviews over time.
 ### Fig. 3 - The rise and quarantine
 
 <p align="center">
-  <img src="/assets/posts/tourism/~weekly_reviews.png" />
+  <img src="/assets/posts/tourism/weekly_reviews.png" />
 </p>
