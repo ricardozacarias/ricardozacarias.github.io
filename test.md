@@ -10,9 +10,9 @@ TLDR: I analyzed AirBnB data in Lisbon, its impact on the housing market and the
 
 Isn't it funny how we all love to travel but hate tourists? 
 
-The explosion in tourism in Portugal and its role in economic recovery has been documented... extensively. As such it is beyond the scope of this article. Instead, much like a hypochondriac reading every word in the leaflet of a prescription drug, I'm more interested in the side effects. 
+The explosion in tourism in Portugal and its role in economic recovery has been documented... extensively. As such it is beyond the scope of this article. Instead, I'm more interested in the side effects. 
 
-AirBnB started as an 'original' idea of two roommates placing an extra mattress in the living room. Otherwise known as monetizing couch surfing (which started way back in 2003). As it grew in popularity, ambition quickly followed and they have now achieved 'disruption' of much more than the hotel industry. In the case of Lisbon, the number of AirBnB have reached epic proportions.
+AirBnB started as an 'original' idea of two roommates placing an extra mattress in the living room. Otherwise known as monetizing [couchsurfing](https://www.couchsurfing.com/) (which started way back in 2003). As it grew in popularity, ambition quickly followed and they have now achieved 'disruption' of much more than the hotel industry. In the case of Lisbon, the number of AirBnB have reached epic proportions.
 
 ### Fig. 1 - AirBnB listings for every 1000 residents in (some) European capitals
 
@@ -25,15 +25,19 @@ We can see Lisbon tops the chart in number of listings by citizen. Also 80% of l
 
 Another way to visualize it is in a map (of course).
 
-Fig. 2 - Animate AirBnB reviews over time.
+### Fig. 2 - Animate AirBnB reviews over time.
 
 
 
+### Fig. 3 - Rent prices in Lisbon
+
+<p align="center">
+  <img src="/assets/posts/tourism/linregress.png" />
+</p>
 
 
 
-
-### Fig. 3 - The rise and quarantine
+### Fig. 4 - The rise and quarantine
 
 <p align="center">
   <img src="/assets/posts/tourism/weekly_reviews.png" />
