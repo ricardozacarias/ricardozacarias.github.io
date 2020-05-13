@@ -68,6 +68,6 @@ It would be interesting to get more details about the purpose of these construct
 
 <h1 id="posts-label"></h1>
 
-*This article was updated on 12-05-2020. But there's no way for you to know what I've changed... what now? Well you'll just have to trust me that it's much better now*
+*This article was updated on 12-05-2020.*
 
 [GitHub Repository](https://github.com/ricardozacarias/lisbon-buildings){:target="_blank"}
