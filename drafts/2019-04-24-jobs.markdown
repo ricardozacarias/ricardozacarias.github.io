@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Ideas"
+date:   2020-05-11
+categories: Python Geodata Geopandas Tutorial
+permalink: /:title
+---
+TLDR: just a list of analysis.
+
+I got a job.
+
+1. Applications (answer, no answer)
+2. Interviews (women x men, make fun of the process, how many of them were consultancy companies)
+3. Technical interviews (only 3 so far)
+4. Offers?
