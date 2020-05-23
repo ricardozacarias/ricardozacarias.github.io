@@ -10,9 +10,7 @@ TLDR: used data from OpenStreetMap and city government to visualize construction
 
 <h1 id="posts-label"></h1>
 
-My article on tourism keeps getting derailed, but for the best of reasons. I got feedback on my [previous article](https://ricardozacarias.com/baixa) from an architect who identified one of his projects on my plots and pointed out that it hadn't been approved yet. After some digging I realized I was mapping **every** submitted development project and not the ones for which a permit had already been issued. 
-
-Fortunately, the data I needed was [right there]([http://geodados.cm-lisboa.pt/datasets/alvar%C3%A1s-para-obras-de-edifica%C3%A7%C3%A3o-e-demoli%C3%A7%C3%A3o](http://geodados.cm-lisboa.pt/datasets/alvarás-para-obras-de-edificação-e-demolição)) next to the one I had used. Besides correcting my previous visualizations, we also potential for further research.
+I received some interesting feedback on my [previous article](https://ricardozacarias.com/baixa) from an architect who identified one of his projects on my plots and pointed out that it hadn't been approved yet. After some digging I realized I was mapping **every** submitted development project and not the ones for which a permit had already been issued. Fortunately, the data I needed was [right there]([http://geodados.cm-lisboa.pt/datasets/alvar%C3%A1s-para-obras-de-edifica%C3%A7%C3%A3o-e-demoli%C3%A7%C3%A3o](http://geodados.cm-lisboa.pt/datasets/alvarás-para-obras-de-edificação-e-demolição)) next to the one I had used previously. After correcting my previous visualizations, I also identified potential for further research.
 
 <p align="center">
   <img src="/assets/posts/baixa/baixa_animation.gif" />
