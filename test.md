@@ -4,7 +4,7 @@ title: "sup"
 date:   2020-04-27
 categories: Lisbon GIS Bread
 ---
-TLDR: I analyzed AirBnB data in Lisbon, its impact on the housing market and the dramatic effect the COVID-19 quarantine had on 
+TLDR: I look into AirBnB data in Lisbon, its impact on the housing market and the effects of quarantine on the short-stay trade.
 
 <h1 id="posts-label"></h1>
 
@@ -47,7 +47,4 @@ It's not all bad. To connect this project with one of my previous posts, the fac
 
 <p align="center">
   <img src="/assets/posts/tourism/weekly_reviews.png" />
-</p>
-<p align="center">
-  <iframe src="alvaras_kepler.html" style="border:2px #000000 none;" name="kepler-map" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="600px" width="800px" allowfullscreen></iframe>
 </p>
