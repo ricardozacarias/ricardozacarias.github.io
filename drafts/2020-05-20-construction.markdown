@@ -12,12 +12,13 @@ TLDR: used data from OpenStreetMap and city government to visualize construction
 
 I received some interesting feedback on my [previous article](https://ricardozacarias.com/baixa) from an architect who identified one of his projects on my plots and pointed out that it hadn't been approved yet. After some digging I realized I was mapping **every** submitted development project and not the ones for which a permit had already been issued. Fortunately, the data I needed was [right there]([http://geodados.cm-lisboa.pt/datasets/alvar%C3%A1s-para-obras-de-edifica%C3%A7%C3%A3o-e-demoli%C3%A7%C3%A3o](http://geodados.cm-lisboa.pt/datasets/alvarás-para-obras-de-edificação-e-demolição)) next to the one I had used previously. After correcting my previous visualizations, I also identified potential for further research.
 
+
+
 <p align="center">
-  <img src="/assets/posts/baixa/baixa_animation.gif" />
+  <iframe src="figures/purchases_map.html" style="border:2px #A9A9A9;" name="kepler-map" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="800px" allowfullscreen></iframe>
 </p>
 
-<h1 id="posts-label"></h1>
 
-*This article was updated on 12-05-2020. But there's no way for you to know what I've changed... what now? Well you'll just have to trust me that it's much better now*
+<h1 id="posts-label"></h1>
 
 [GitHub Repository](https://github.com/ricardozacarias/lisbon-buildings){:target="_blank"}
