@@ -10,9 +10,9 @@ TLDR: I look into AirBnB data in Lisbon, its impact on the housing market and th
 
 Isn't it funny how we all love to travel but hate tourists? 
 
-The explosion in tourism in Portugal and its role in economic recovery has been documented... extensively. As such it is beyond the scope of this article. Instead, I'm more interested in the side effects. 
+The explosion of tourism in Portugal and its role in economic recovery has been documented... extensively. As such it is beyond the scope of this article. Instead, I'm more interested in the side effects. 
 
-AirBnB started as an 'original' idea of two roommates placing an extra mattress in the living room. Otherwise known as monetizing [couchsurfing](https://www.couchsurfing.com/) (which started way back in 2003). As it grew in popularity, ambition quickly followed and they have now achieved 'disruption' of much more than the hotel industry. In the case of Lisbon, the number of AirBnB have reached epic proportions.
+AirBnB started as an 'original' idea of two roommates placing an extra mattress in the living room. In other words, monetizing [couchsurfing](https://www.couchsurfing.com/) (which started way back in 2003). As it grew in popularity, ambition quickly followed and they have now achieved 'disruption' of much more than the hotel industry. In Lisbon, the number of AirBnB have reached epic proportions.
 
 ### Fig. 1 - AirBnB listings for every 1000 residents in (some) European capitals
 
@@ -43,8 +43,13 @@ It's not all bad. To connect this project with one of my previous posts, the fac
 
 
 
+<iframe src="kepler-map.html" style="border:2px #2c3e50 solid;" name="map" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="800px" allowfullscreen></iframe>
+
+
+
 ### Fig. 4 - The rise and quarantine
 
 <p align="center">
   <img src="/assets/posts/tourism/weekly_reviews.png" />
 </p>
+
