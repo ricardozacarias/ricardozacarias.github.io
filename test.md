@@ -10,8 +10,6 @@ TLDR: I explore the evolution of AirBnB in Lisbon, its impact on the housing mar
 
 Isn't it funny how we all love to travel but dislike tourists? 
 
-The explosion of tourism in Portugal and its role in economic recovery has been documented... extensively. As such it is beyond the scope of this article. Instead, I'm more interested in the side effects. 
-
 AirBnB started as an 'original' idea of two roommates placing an extra mattress in the living room. In other words, monetizing [couchsurfing](https://www.couchsurfing.com/) (which started way back in 2003). As it grew in popularity, ambition quickly followed and they have now achieved 'disruption' of much more than the hospitality industry. In Lisbon, AirBnB's presence has reached epic proportions.
 
 ### Fig. 1 - AirBnB listings for every 1000 residents in (some) European capitals
@@ -34,6 +32,10 @@ Another way to visualize it is in a map (of course).
 This really looks like a sustainable process doesn't it?
 
 Recently government took [some steps](https://eco.sapo.pt/2019/10/23/lisboa-trava-novos-alojamentos-locais-na-baixa-avenida-da-liberdade-e-almirante-reis/) in an attempt to flatten this particular curve. They've defined radioactive-like *absolute containment areas* where no more apartments can be registered for short-term stay.
+
+The people that used to live in the city can tell you what the impact has been on rent prices. A lot of them find themselves across the river. 
+
+
 
 ### Fig. 3 - Rent prices in Lisbon
 
