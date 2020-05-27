@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "sup"
+title: "The Rise and Quarantine of Lisbon's AirBnB"
 date:   2020-04-27
 categories: Lisbon GIS Bread
 ---
-TLDR: I look into AirBnB data in Lisbon, its impact on the housing market and the effects of quarantine on the short-stay trade.
+TLDR: I explore the evolution of AirBnB in Lisbon, its impact on the housing market and the effects of quarantine on the short-stay trade.
 
 <h1 id="posts-label"></h1>
 
-Isn't it funny how we all love to travel but hate tourists? 
+Isn't it funny how we all love to travel but dislike tourists? 
 
 The explosion of tourism in Portugal and its role in economic recovery has been documented... extensively. As such it is beyond the scope of this article. Instead, I'm more interested in the side effects. 
 
-AirBnB started as an 'original' idea of two roommates placing an extra mattress in the living room. In other words, monetizing [couchsurfing](https://www.couchsurfing.com/) (which started way back in 2003). As it grew in popularity, ambition quickly followed and they have now achieved 'disruption' of much more than the hotel industry. In Lisbon, the number of AirBnB have reached epic proportions.
+AirBnB started as an 'original' idea of two roommates placing an extra mattress in the living room. In other words, monetizing [couchsurfing](https://www.couchsurfing.com/) (which started way back in 2003). As it grew in popularity, ambition quickly followed and they have now achieved 'disruption' of much more than the hospitality industry. In Lisbon, AirBnB's presence has reached epic proportions.
 
 ### Fig. 1 - AirBnB listings for every 1000 residents in (some) European capitals
 
@@ -30,6 +30,10 @@ Another way to visualize it is in a map (of course).
 ### Fig. 2 - Animate AirBnB reviews over time
 
 
+
+This really looks like a sustainable process doesn't it?
+
+Recently government took [some steps](https://eco.sapo.pt/2019/10/23/lisboa-trava-novos-alojamentos-locais-na-baixa-avenida-da-liberdade-e-almirante-reis/) in an attempt to flatten this particular curve. They've defined radioactive-like *absolute containment areas* where no more apartments can be registered for short-term stay.
 
 ### Fig. 3 - Rent prices in Lisbon
 
