@@ -58,4 +58,5 @@ It's not all bad. To connect this project with one of my previous posts, the fac
 <p align="center">
   <img src="/assets/posts/tourism/weekly_reviews.png" />
 </p>
+I'm not saying there is causality between the correlations... you would need an experiment to test that.. like for example removing all tourists from a city. Guess what a pandemic is kind of a natural experiment. Now we don't have new officil data for rents... but it's looking like they're on sale.
 
