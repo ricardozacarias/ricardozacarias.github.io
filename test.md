@@ -23,7 +23,7 @@ AirBnB started as an 'original' idea of two roommates placing an extra mattress 
 
 We can see Lisbon tops the chart in number of listings by citizen. Also 80% of listings are for entire apartments and 77% are available for more than 3 months. So much for that extra couch in the living room or the occasional weekend away. 
 
-Another way to visualize it is in a map (of course).
+
 
 ### Fig. 2 - Animate AirBnB reviews over time
 

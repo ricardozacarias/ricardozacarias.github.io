@@ -1,0 +1,80 @@
+---
+layout: post
+title: "The Rise and Quarantine of Lisbon's AirBnB"
+date:   2020-04-27
+categories: Lisbon GIS Bread
+---
+TLDR: I explore the evolution of AirBnB in Lisbon, its impact on the housing market and the effects of quarantine on the short-stay trade.
+
+<h1 id="posts-label"></h1>
+
+# Calling timeouts in the NBA
+
+###### by Ricardo Zacarias
+
+*For fully interactive version of this story go [here](https://ricardozacarias.github.io/nba-timeouts/).*
+
+
+
+As I get up to snack after watching another delicious fried chicken ad, I started wondering about how much of my life was being wasted by timeouts in NBA games. 
+
+> *In the National Basketball Association (NBA), teams are allowed seven timeouts, each of 1 minute, 15 seconds. There is no limit on substitutions. In overtime periods, each team is allowed two timeouts. A timeout can only be requested by a player in the game or the head coach, and only when the ball is dead or in control of the team making the request.*
+
+I wanted to get an accurate number of how many are used during a season, but I quickly discovered that timeout stats are not very common in game box scores. Still curious, I found some play-by-play data available [here](https://eightthirtyfour.com/data) and decided to have a go at it myself.
+
+I found **13,437** total timeouts during the 2018-19 regular season. 
+
+**6,652** taken by the home team, and **6,785** by the visiting team.
+
+Below you can see on hover how much time your favorite team has cost you in timeouts (if you watched all 82 games, of course).
+
+<div>
+    <a href="https://plotly.com/~Zaca/45/?share_key=TsTShGlZ4ozuXYbdpmGr5v" target="_blank" title="TimeoutsPerTeam3" style="display: block; text-align: center;"><img src="https://plotly.com/~Zaca/45.png?share_key=TsTShGlZ4ozuXYbdpmGr5v" alt="TimeoutsPerTeam3" style="max-width: 100%;width: 850px;"  width="850" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="Zaca:45" sharekey-plotly="TsTShGlZ4ozuXYbdpmGr5v" src="https://plotly.com/embed.js" async></script>
+</div>
+
+The first thing I noticed was that teams displayed more variability in the use of timeouts than I had anticipated. Rockets fans profit most from Mike D'Antoni's notorious reluctance in stopping the game:
+
+> "What am I gonna do, say 'Oh, let me take the ball out of James's hand, then take it out, call a timeout, put it back in their hands in the exact same spot they were?' We just go with it." D'Antoni said in an [interview](https://www.si.com/nba/2019/05/02/steve-kerr-gregg-popovich-mike-dantoni-brad-stevens-brett-brown-nba-coaches-playoffs-timeouts) with Sports Illustrated earlier this year. 
+
+Interestingly, he used to be the assistant to 76ers coach Brett Brown who sits on the other end of the spectrum. In the same interview he mentions that he never challenged his previous boss about all the voluntary stoppages. "The biggest thing, I thought," he said, "was that it ate into my dinner time." I feel you Mike.
+
+We all know the very end of close games can be quite painful thanks to TO calls, but I wondered how they are used during the rest of the game.
+
+<div>
+    <a href="https://plotly.com/~Zaca/41/?share_key=uYvfNc087aOYW8J7w1Ue6l" target="_blank" title="TimeoutsOverTime2" style="display: block; text-align: center;"><img src="https://plotly.com/~Zaca/41.png?share_key=uYvfNc087aOYW8J7w1Ue6l" alt="TimeoutsOverTime2" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="Zaca:41" sharekey-plotly="uYvfNc087aOYW8J7w1Ue6l" src="https://plotly.com/embed.js" async></script>
+</div>
+The pattern of timeout calling is similar for the first three quarters, but as we all know, everything changes in the fourth. You'll notice that both peaks occur at the same time in the first 3 periods, when there's 6:45 and 2:45 left in the quarter. I had no idea about this, but these times match mandatory TV timeouts defined by the league. From the official NBA rulebook:
+
+> *"There must be two mandatory timeouts in each period.* *If neither team has taken a timeout prior to 6:59 of the period, it shall be mandatory for the Official Scorer to take it at the first dead ball and charge it to the **home team**. If no subsequent timeouts are taken prior to 2:59, it shall be mandatory for the Official Scorer to take it and charge it **to the team not previously charged**."*
+
+If this is true then the first peak in each quarter should be dominated by the home team calling timeout and the second peak by the visiting team. I separated the blue trace by the team making the call (red - home, orange - away) and you can click on the legend line to activate or deactivate traces.
+
+The 4th quarter is a special case. There are still two peaks, but quite different from the others. The first real bump occurs at 3:15, **before** the 2:59 threshold for a TV break meaning these are not mandatory timeouts. If you keep reading the rule book:
+
+> *"Each team will be limited to two team timeouts after the three-minute mark of the fourth period".*
+
+The high frequency of TOs at this time is most likely caused by coaches not wanting to waste them by going into the end of the game with more than 2 left. And naturally, the very end of the game is timeout galore.
+
+This suggests that not all timeouts are the same. Next, I wondered about the current state of the match when coaches decide to intervene, so I looked at the distribution of score differentials at timeout events. 
+
+<div>
+    <a href="https://plotly.com/~Zaca/51/?share_key=f5Q2bj0MxOIM4SzXAiy2VC" target="_blank" title="ScoreMarginAtTimeouts2" style="display: block; text-align: center;"><img src="https://plotly.com/~Zaca/51.png?share_key=f5Q2bj0MxOIM4SzXAiy2VC" alt="ScoreMarginAtTimeouts2" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="Zaca:51" sharekey-plotly="f5Q2bj0MxOIM4SzXAiy2VC" src="https://plotly.com/embed.js" async></script>
+</div>
+
+It is slightly shifted from 0 to the negative side. The red bar shows us the median (-2) and means that half of the timeouts were asked when the squad was losing by more than 2 points.
+
+Teams ask for timeouts not only when they're losing, but also when they're *losing advantage*. For example, if your lead of +20 points is cut to +10 you might wanna ask for a timeout. If you do your team is still at a +10 and that proximal cause for a TO is lost in this graph.
+
+To look into that, we need to track event games in a smaller window in the vicinity of a timeout call. 
+
+Below we see the average score margin in a 90 second window before and after timeouts for each team. At the time of the timeout (x=0), I normalized the score to be 0-0 and then calculated the average change in score. You can see the pattern for your favorite team/coach using the dropdown menu. 
+
+<div>
+    <a href="https://plotly.com/~Zaca/49/?share_key=5E25ytnjUlxMZOqnPc9zRV" target="_blank" title="TeamTimeSeriesFULL2" style="display: block; text-align: center;"><img src="https://plotly.com/~Zaca/49.png?share_key=5E25ytnjUlxMZOqnPc9zRV" alt="TeamTimeSeriesFULL2" style="max-width: 100%;width: 650px;"  width="650" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="Zaca:49" sharekey-plotly="5E25ytnjUlxMZOqnPc9zRV" src="https://plotly.com/embed.js" async></script>
+</div>
+
+Stopping negative momentum can take the form of addressing defensive/offensive concerns, strategic concerns, and psychological/emotional concerns. Although stop-the-bleeding timeouts are common in basketball, timeouts are still called for other reasons unrelated to momentum; maintaining possession, making substitutions, dealing with injury, or changing the positioning of the ball on the floor for late-game situations.
