@@ -21,15 +21,13 @@ AirBnB started as an 'original' idea of two roommates placing an extra mattress 
 </p>
 We can see Lisbon tops the chart in number of listings by citizen. Of Also 80% of listings are for entire apartments and 77% are available for more than 3 months. So much for that extra couch in the living room or the occasional weekend away. 
 
-
-
 ### Fig. 2 - Animate AirBnB reviews over time
 
-
+[insert video here]
 
 This really looks like a sustainable process doesn't it?
 
-Recently government took [some steps](https://eco.sapo.pt/2019/10/23/lisboa-trava-novos-alojamentos-locais-na-baixa-avenida-da-liberdade-e-almirante-reis/) in an attempt to flatten this particular curve. They've defined radioactive-like *absolute containment areas* where no more apartments can be registered for short-term stay.
+
 
 The people that used to live in the city can tell you what the impact has been on rent prices. A lot of them find themselves across the river. 
 
@@ -40,7 +38,7 @@ The people that used to live in the city can tell you what the impact has been o
 <p align="center">
   <img src="/assets/posts/tourism/linregress.png" />
 </p>
-
+Recently government took [some steps](https://eco.sapo.pt/2019/10/23/lisboa-trava-novos-alojamentos-locais-na-baixa-avenida-da-liberdade-e-almirante-reis/) in an attempt to flatten this particular curve. They've defined radioactive-like *absolute containment areas* where no more apartments can be registered for short-term stay.
 
 
 It's not all bad. To connect this project with one of my previous posts, the fact of the matter is that many old, rotten buildings in historical areas have been rehabilitated. Here for example we can see the number of construction permits issued rising as the number of AirBnBs also increase. We can't deny that our city is looking sharp. The only problem is we can't afford it.
