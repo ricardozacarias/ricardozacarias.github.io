@@ -10,7 +10,7 @@ TLDR: I explore the evolution of AirBnB in Lisbon, its impact on the housing mar
 
 Isn't it funny how we all love to travel but dislike tourists? 
 
-AirBnB started as an 'original' idea of two roommates placing an extra mattress in the living room, otherwise known as monetizing [couchsurfing](https://www.couchsurfing.com/) (which started way back in 2003). As it grew in popularity, ambition quickly followed and they have now achieved 'disruption' of much more than the hospitality industry. In Lisbon, AirBnB's presence has reached epic proportions.
+AirBnB started as an 'original' idea of two roommates placing an extra mattress in the living room, otherwise known as monetizing [couchsurfing](https://www.couchsurfing.com/), which started way back in 2003. As it grew in popularity, ambition quickly followed and they have now achieved 'disruption' of much more than the hospitality industry. In Lisbon, AirBnB's presence has reached epic proportions.
 
 ### Fig. 1 - AirBnB listings for every 1000 residents in European capitals
 
